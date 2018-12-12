@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<V8Data>
+	<inputstypes>
+		<erpcode>**001</erpcode>
+		<name>От Поставщика</name>
+		<erpgoodstate/>
+		<erpowner>**001</erpowner>
+		<actual>true</actual>
+	</inputstypes>
+	<inputstypes>
+		<erpcode>**002</erpcode>
+		<name>С Производства</name>
+		<erpgoodstate/>
+		<erpowner>**001</erpowner>
+		<actual>true</actual>
+	</inputstypes>
+	<inputstypes>
+		<erpcode>**003</erpcode>
+		<name>Хранение</name>
+		<erpgoodstate/>
+		<erpowner>**001</erpowner>
+		<actual>true</actual>
+	</inputstypes>
+	<inputstypes>
+		<erpcode>**004</erpcode>
+		<name>Возврат</name>
+		<erpgoodstate/>
+		<erpowner>**001</erpowner>
+		<actual>true</actual>
+	</inputstypes>
+	<inputstypes>
+		<erpcode>**005</erpcode>
+		<name>Недовоз</name>
+		<erpgoodstate/>
+		<erpowner>**001</erpowner>
+		<actual>true</actual>
+	</inputstypes>
+	<inputstypes>
+		<erpcode>**006</erpcode>
+		<name>Ревизия</name>
+		<erpgoodstate/>
+		<erpowner>**001</erpowner>
+		<actual>true</actual>
+	</inputstypes>
+</V8Data>

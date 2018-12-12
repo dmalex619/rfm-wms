@@ -1,0 +1,313 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<OBJECT type="text/site properties">
+	<param name="ImageType" value="Folder">
+</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="&Icirc; &iuml;&eth;&icirc;&atilde;&eth;&agrave;&igrave;&igrave;&aring;">
+		<param name="Local" value="html\Main.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="&Ntilde;&ecirc;&euml;&agrave;&auml;&ntilde;&ecirc;&egrave;&aring; &icirc;&iuml;&aring;&eth;&agrave;&ouml;&egrave;&egrave;">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="&Iuml;&eth;&egrave;&otilde;&icirc;&auml;&ucirc;">
+			<param name="Local" value="html\Inputs.htm">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="&Iuml;&eth;&egrave;&otilde;&icirc;&auml;&ucirc;">
+				<param name="Local" value="html\Inputs.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="&Ntilde;&iuml;&egrave;&ntilde;&icirc;&ecirc; &iuml;&eth;&egrave;&otilde;&icirc;&auml;&icirc;&acirc;">
+				<param name="Local" value="html\InputsList.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="&Dstrok;&aring;&auml;&agrave;&ecirc;&ograve;&egrave;&eth;&icirc;&acirc;&agrave;&iacute;&egrave;&aring; &iuml;&eth;&egrave;&otilde;&icirc;&auml;&agrave;">
+				<param name="Local" value="html\InputsEdit.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="&Auml;&icirc;&aacute;&agrave;&acirc;&euml;&aring;&iacute;&egrave;&aring; &iuml;&eth;&egrave;&otilde;&icirc;&auml;&agrave;">
+				<param name="Local" value="html\InputsEdit.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="&Iuml;&icirc;&auml;&ograve;&acirc;&aring;&eth;&aelig;&auml;&aring;&iacute;&egrave;&aring; &iuml;&eth;&egrave;&otilde;&icirc;&auml;&agrave;">
+				<param name="Local" value="html\InputsConfirm.htm">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="&Dstrok;&agrave;&ntilde;&otilde;&icirc;&auml;&ucirc;">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="&Iuml;&aring;&eth;&aring;&igrave;&aring;&ugrave;&aring;&iacute;&egrave;&yuml;">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="&szlig;&divide;&aring;&eacute;&ecirc;&egrave;. &Ntilde;&ecirc;&euml;&agrave;&auml;">
+		<param name="Local" value="html\Cells.htm">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="&szlig;&divide;&aring;&eacute;&ecirc;&egrave;">
+			<param name="Local" value="html\Cells.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="&Ntilde;&iuml;&egrave;&ntilde;&icirc;&ecirc; &yuml;&divide;&aring;&aring;&ecirc;">
+			<param name="Local" value="html\CellsList.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="&Auml;&icirc;&aacute;&agrave;&acirc;&euml;&aring;&iacute;&egrave;&aring; &auml;&egrave;&agrave;&iuml;&agrave;&ccedil;&icirc;&iacute;&agrave; &yuml;&divide;&aring;&aring;&ecirc;">
+			<param name="Local" value="html\CellsAddRange.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="&Auml;&icirc;&aacute;&agrave;&acirc;&euml;&aring;&iacute;&egrave;&aring; &icirc;&auml;&iacute;&icirc;&eacute; &ntilde;&iuml;&aring;&ouml;&egrave;&agrave;&euml;&uuml;&iacute;&icirc;&eacute; &yuml;&divide;&aring;&eacute;&ecirc;&egrave;">
+			<param name="Local" value="html\CellsAddSpecial.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="&Oacute;&auml;&agrave;&euml;&aring;&iacute;&egrave;&aring; &yuml;&divide;&aring;&aring;&ecirc;">
+			<param name="Local" value="html\CellsDelete.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="&Dstrok;&aring;&auml;&agrave;&ecirc;&ograve;&egrave;&eth;&icirc;&acirc;&agrave;&iacute;&egrave;&aring; &atilde;&aring;&icirc;&igrave;&aring;&ograve;&eth;&egrave;&egrave; &yuml;&divide;&aring;&aring;&ecirc;">
+			<param name="Local" value="html\CellsGeometryEdit.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="&Dstrok;&aring;&auml;&agrave;&ecirc;&ograve;&egrave;&eth;&icirc;&acirc;&agrave;&iacute;&egrave;&aring; &ocirc;&egrave;&ecirc;&ntilde;&egrave;&eth;&icirc;&acirc;&agrave;&iacute;&iacute;&ucirc;&otilde; &ccedil;&agrave;&ecirc;&eth;&aring;&iuml;&euml;&aring;&iacute;&egrave;&eacute; &yuml;&divide;&aring;&aring;&ecirc;">
+			<param name="Local" value="html\CellsFixedEdit.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="&Iacute;&agrave;&ccedil;&iacute;&agrave;&divide;&aring;&iacute;&egrave;&aring; &aacute;&oacute;&ocirc;&aring;&eth;&iacute;&ucirc;&otilde; &yuml;&divide;&aring;&aring;&ecirc;">
+			<param name="Local" value="html\CellsBuffer.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="&Egrave;&ntilde;&iuml;&eth;&agrave;&acirc;&euml;&aring;&iacute;&egrave;&aring; &ntilde;&icirc;&ntilde;&ograve;&icirc;&yuml;&iacute;&egrave;&yuml; &yuml;&divide;&aring;&eacute;&ecirc;&egrave;">
+			<param name="Local" value="html\CellsMedication.htm">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="&Egrave;&ntilde;&iuml;&eth;&agrave;&acirc;&euml;&aring;&iacute;&egrave;&aring; &ntilde;&icirc;&ntilde;&ograve;&icirc;&yuml;&iacute;&egrave;&yuml; &yuml;&divide;&aring;&eacute;&ecirc;&egrave;">
+				<param name="Local" value="html\CellsMedication.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="&Egrave;&ntilde;&iuml;&eth;&agrave;&acirc;&euml;&aring;&iacute;&egrave;&aring; &ntilde;&icirc;&ntilde;&ograve;&icirc;&yuml;&iacute;&egrave;&yuml; &yuml;&divide;&aring;&eacute;&ecirc;&egrave;, &iuml;&eth;&aring;&auml;&iacute;&agrave;&ccedil;&iacute;&agrave;&divide;&aring;&iacute;&iacute;&icirc;&eacute; &auml;&euml;&yuml; &ecirc;&icirc;&iacute;&ograve;&aring;&iacute;&eacute;&aring;&eth;&icirc;&acirc;">
+				<param name="Local" value="html\CellsMedicationFrames.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="&Egrave;&ntilde;&iuml;&eth;&agrave;&acirc;&euml;&aring;&iacute;&egrave;&aring; &ntilde;&icirc;&ntilde;&ograve;&icirc;&yuml;&iacute;&egrave;&yuml; &yuml;&divide;&aring;&eacute;&ecirc;&egrave;, &iuml;&eth;&aring;&auml;&iacute;&agrave;&ccedil;&iacute;&agrave;&divide;&aring;&iacute;&iacute;&icirc;&eacute; &auml;&euml;&yuml; &ograve;&icirc;&acirc;&agrave;&eth;&agrave; (&iacute;&aring; &auml;&euml;&yuml; &ecirc;&icirc;&iacute;&ograve;&aring;&iacute;&eacute;&aring;&eth;&icirc;&acirc;)">
+				<param name="Local" value="html\CellsMedicationNotFrames.htm">
+				</OBJECT>
+		</UL>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="&Icirc;&iuml;&aring;&eth;&agrave;&ouml;&egrave;&egrave; &ograve;&eth;&agrave;&iacute;&ntilde;&iuml;&icirc;&eth;&ograve;&egrave;&eth;&icirc;&acirc;&ecirc;&egrave;">
+		<param name="Local" value="html\Traffics.htm">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="&Ograve;&eth;&agrave;&iacute;&ntilde;&iuml;&icirc;&eth;&ograve;&egrave;&eth;&icirc;&acirc;&ecirc;&egrave;">
+			<param name="Local" value="html\Traffics.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="&Ntilde;&iuml;&egrave;&ntilde;&icirc;&ecirc; &ograve;&eth;&agrave;&iacute;&ntilde;&iuml;&icirc;&eth;&ograve;&egrave;&eth;&icirc;&acirc;&icirc;&ecirc;">
+			<param name="Local" value="html\TrafficsList.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="&Auml;&icirc;&aacute;&agrave;&acirc;&euml;&aring;&iacute;&egrave;&aring; &ograve;&eth;&agrave;&iacute;&ntilde;&iuml;&icirc;&eth;&ograve;&egrave;&eth;&icirc;&acirc;&ecirc;&egrave;">
+			<param name="Local" value="html\TrafficsAdd.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="&Dstrok;&aring;&auml;&agrave;&ecirc;&ograve;&eth;&icirc;&acirc;&agrave;&iacute;&egrave;&aring; &ograve;&eth;&agrave;&iacute;&ntilde;&iuml;&icirc;&eth;&ograve;&egrave;&eth;&icirc;&acirc;&ecirc;&egrave;">
+			<param name="Local" value="html\TrafficsEdit.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="&Iuml;&icirc;&auml;&ograve;&acirc;&aring;&eth;&aelig;&auml;&aring;&iacute;&egrave;&aring; &ograve;&eth;&agrave;&iacute;&ntilde;&iuml;&icirc;&eth;&ograve;&egrave;&eth;&icirc;&acirc;&ecirc;&egrave;">
+			<param name="Local" value="html\TrafficsEdit.htm">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="&Ecirc;&icirc;&iacute;&ograve;&aring;&eacute;&iacute;&aring;&eth;&ucirc;">
+		<param name="Local" value="html\Frames.htm">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="&Ecirc;&icirc;&iacute;&ograve;&aring;&eacute;&iacute;&aring;&eth;&ucirc;">
+			<param name="Local" value="html\Frames.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="&Ntilde;&iuml;&egrave;&ntilde;&icirc;&ecirc; &ecirc;&icirc;&iacute;&ograve;&aring;&eacute;&iacute;&aring;&eth;&icirc;&acirc;">
+			<param name="Local" value="html\FramesList.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="&Auml;&icirc;&aacute;&agrave;&acirc;&euml;&aring;&iacute;&egrave;&aring; &ecirc;&icirc;&iacute;&ograve;&aring;&eacute;&iacute;&aring;&eth;&icirc;&acirc;">
+			<param name="Local" value="html\FramesAdd.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="&Dstrok;&aring;&auml;&agrave;&ecirc;&ograve;&egrave;&eth;&icirc;&acirc;&agrave;&iacute;&egrave;&aring; &atilde;&aring;&icirc;&igrave;&aring;&ograve;&eth;&egrave;&egrave; &ecirc;&icirc;&iacute;&ograve;&aring;&eacute;&iacute;&aring;&eth;&icirc;&acirc;">
+			<param name="Local" value="html\FramesGeometryEdit.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="&Egrave;&ntilde;&iuml;&eth;&agrave;&acirc;&euml;&aring;&iacute;&egrave;&aring; &ntilde;&icirc;&ntilde;&ograve;&icirc;&yuml;&iacute;&egrave;&yuml; &ecirc;&icirc;&iacute;&ograve;&aring;&eacute;&iacute;&aring;&eth;&agrave;">
+			<param name="Local" value="html\FramesMedication.htm">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="&Acirc;&ucirc;&aacute;&icirc;&eth; &ocirc;&egrave;&ecirc;&ntilde;&egrave;&eth;&icirc;&acirc;&agrave;&iacute;&iacute;&ucirc;&otilde; &ccedil;&iacute;&agrave;&divide;&aring;&iacute;&egrave;&eacute;">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="&Acirc;&ucirc;&aacute;&icirc;&eth; &ograve;&icirc;&acirc;&agrave;&eth;&icirc;&acirc;">
+			<param name="Local" value="html\GoodsChoose.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="&Acirc;&ucirc;&aacute;&icirc;&eth; &yuml;&divide;&aring;&aring;&ecirc;">
+			<param name="Local" value="html\CellsChoose.htm">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="&Ntilde;&ograve;&agrave;&iacute;&auml;&agrave;&eth;&ograve;&iacute;&ucirc;&aring; &eth;&aring;&aelig;&egrave;&igrave;&ucirc;">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="&Ograve;&agrave;&aacute;&euml;&egrave;&ouml;&ucirc;">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="&Ntilde;&ograve;&eth;&icirc;&ecirc;&egrave;, &ntilde;&ograve;&icirc;&euml;&aacute;&ouml;&ucirc;, &yuml;&divide;&aring;&eacute;&ecirc;&egrave;">
+				<param name="Local" value="html\std_grid_строки.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="&Igrave;&aring;&iacute;&thorn; &iacute;&agrave; &iuml;&eth;&agrave;&acirc;&icirc;&eacute; &ecirc;&iacute;&icirc;&iuml;&ecirc;&aring; &igrave;&ucirc;&oslash;&egrave;">
+				<param name="Local" value="html\std_grid_меню_прав.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="&Iuml;&aring;&eth;&aring;&igrave;&aring;&ugrave;&aring;&iacute;&egrave;&aring; &iuml;&icirc; &ograve;&agrave;&aacute;&euml;&egrave;&ouml;&aring;">
+				<param name="Local" value="html\std_grid_перемещение.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="&Egrave;&ccedil;&igrave;&aring;&iacute;&aring;&iacute;&egrave;&aring; &oslash;&egrave;&eth;&egrave;&iacute;&ucirc; &ecirc;&icirc;&euml;&icirc;&iacute;&icirc;&ecirc;">
+				<param name="Local" value="html\std_grid_изм_шир_колонок.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="&Egrave;&ccedil;&igrave;&aring;&iacute;&aring;&iacute;&egrave;&aring; &iuml;&icirc;&eth;&yuml;&auml;&ecirc;&agrave; &ntilde;&euml;&aring;&auml;&icirc;&acirc;&agrave;&iacute;&egrave;&yuml; &ecirc;&icirc;&euml;&icirc;&iacute;&icirc;&ecirc;">
+				<param name="Local" value="html\std_grid_изм_порядка_колонок.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="&Ocirc;&egrave;&ecirc;&ntilde;&agrave;&ouml;&egrave;&yuml; &eth;&agrave;&ntilde;&iuml;&icirc;&euml;&icirc;&aelig;&aring;&iacute;&egrave;&yuml; &ecirc;&icirc;&euml;&icirc;&iacute;&icirc;&ecirc;">
+				<param name="Local" value="html\std_grid_фикс_колонок.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="&Agrave;&ecirc;&ograve;&oacute;&agrave;&euml;&uuml;&iacute;&ucirc;&aring; &ccedil;&agrave;&iuml;&egrave;&ntilde;&egrave;">
+				<param name="Local" value="html\std_grid_актуал.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="&Egrave;&ograve;&icirc;&atilde;&icirc;&acirc;&agrave;&yuml; &ntilde;&ograve;&eth;&icirc;&ecirc;&agrave;">
+				<param name="Local" value="html\std_grid_итоговая строка.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="&Icirc;&ograve;&igrave;&aring;&ograve;&ecirc;&agrave; &ccedil;&agrave;&iuml;&egrave;&ntilde;&aring;&eacute;">
+				<param name="Local" value="html\std_grid_пометка.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="&Ntilde;&icirc;&eth;&ograve;&egrave;&eth;&icirc;&acirc;&ecirc;&agrave;">
+				<param name="Local" value="html\std_grid_сорт.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="&Iuml;&icirc;&egrave;&ntilde;&ecirc; &iuml;&icirc; &iuml;&eth;&icirc;&egrave;&ccedil;&acirc;&icirc;&euml;&uuml;&iacute;&icirc;&eacute; &ecirc;&icirc;&euml;&icirc;&iacute;&ecirc;&aring;">
+				<param name="Local" value="html\std_grid_поиск_общ.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="&Iuml;&icirc;&egrave;&ntilde;&ecirc; &iuml;&icirc; &iuml;&eth;&aring;&auml;&icirc;&iuml;&eth;&aring;&auml;&aring;&euml;&aring;&iacute;&iacute;&icirc;&eacute; &ecirc;&icirc;&euml;&icirc;&iacute;&ecirc;&aring;">
+				<param name="Local" value="html\std_grid_поиск_предопр.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="&Yacute;&ecirc;&ntilde;&iuml;&icirc;&eth;&ograve;">
+				<param name="Local" value="html\std_grid_экспорт.htm">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="&Iuml;&icirc;&euml;&yuml;">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="&Ograve;&aring;&ecirc;&ntilde;&ograve;">
+				<param name="Local" value="html\std_field_текст.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="&times;&egrave;&ntilde;&euml;&icirc;">
+				<param name="Local" value="html\std_field_число.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="&Auml;&agrave;&ograve;&agrave;">
+				<param name="Local" value="html\std_field_дата.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="&Ocirc;&euml;&agrave;&aelig;&icirc;&ecirc;">
+				<param name="Local" value="html\std_field_флажок.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="&Acirc;&ucirc;&aacute;&icirc;&eth; &icirc;&auml;&iacute;&icirc;&atilde;&icirc; &acirc;&agrave;&eth;&egrave;&agrave;&iacute;&ograve;&agrave;">
+				<param name="Local" value="html\std_field_радио.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="&Ntilde;&iuml;&egrave;&ntilde;&icirc;&ecirc; &ntilde; &acirc;&ucirc;&aacute;&icirc;&eth;&icirc;&igrave; &icirc;&auml;&iacute;&icirc;&atilde;&icirc; &ccedil;&iacute;&agrave;&divide;&aring;&iacute;&egrave;&yuml;">
+				<param name="Local" value="html\std_field_комбо.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="&Ntilde;&iuml;&egrave;&ntilde;&icirc;&ecirc; &ntilde; &acirc;&ucirc;&aacute;&icirc;&eth;&icirc;&igrave; &iacute;&aring;&ntilde;&ecirc;&icirc;&euml;&uuml;&ecirc;&egrave;&otilde; &ccedil;&iacute;&agrave;&divide;&aring;&iacute;&egrave;&eacute; (&ntilde; &iuml;&icirc;&igrave;&aring;&ograve;&ecirc;&icirc;&eacute;)">
+				<param name="Local" value="html\std_field_лист.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="&Auml;&aring;&eth;&aring;&acirc;&icirc;">
+				<param name="Local" value="html\std_field_дерево.htm">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="&Ecirc;&iacute;&icirc;&iuml;&ecirc;&egrave;">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="&Ntilde;&ograve;&agrave;&iacute;&auml;&agrave;&eth;&ograve;&iacute;&ucirc;&aring; &ecirc;&iacute;&icirc;&iuml;&ecirc;&egrave;">
+				<param name="Local" value="html\std_buttons.htm">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="&Ocirc;&egrave;&euml;&uuml;&ograve;&eth;&ucirc;">
+			<param name="Local" value="html\str_filter.htm">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="&times;&egrave;&ntilde;&euml;&agrave; (&auml;&egrave;&agrave;&iuml;&agrave;&ccedil;&icirc;&iacute;)">
+				<param name="Local" value="html\str_filter_числа.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="&Auml;&agrave;&ograve;&ucirc; (&auml;&egrave;&agrave;&iuml;&agrave;&ccedil;&icirc;&iacute;)">
+				<param name="Local" value="html\str_filter_даты.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="&Icirc;&ograve;&igrave;&aring;&ograve;&ecirc;&agrave; &ccedil;&iacute;&agrave;&divide;&aring;&iacute;&egrave;&eacute;">
+				<param name="Local" value="html\str_filter_отметка.htm">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="&Dstrok;&agrave;&aacute;&icirc;&ograve;&agrave; &ntilde; &auml;&agrave;&iacute;&iacute;&ucirc;&igrave;&egrave; &ograve;&agrave;&aacute;&euml;&egrave;&ouml; &iuml;&eth;&icirc;&ntilde;&ograve;&icirc;&eacute; &ntilde;&ograve;&eth;&oacute;&ecirc;&ograve;&oacute;&eth;&ucirc;">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="&Icirc;&ograve;&icirc;&aacute;&eth;&agrave;&aelig;&aring;&iacute;&egrave;&aring; &ograve;&agrave;&aacute;&euml;&egrave;&ouml;&ucirc;">
+				<param name="Local" value="html\std_look.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="&Dstrok;&agrave;&aacute;&icirc;&ograve;&agrave; &ntilde; &ccedil;&agrave;&iuml;&egrave;&ntilde;&uuml;&thorn; &acirc; &iuml;&agrave;&ntilde;&iuml;&icirc;&eth;&ograve;&iacute;&icirc;&eacute; &ocirc;&icirc;&eth;&igrave;&aring;">
+				<param name="Local" value="html\std_edit.htm">
+				</OBJECT>
+		</UL>
+	</UL>
+</UL>
+</BODY></HTML>

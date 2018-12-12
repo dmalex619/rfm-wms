@@ -1,0 +1,118 @@
+-------------------------------------
+Объекты Windows Forms
+-------------------------------------
+Binding						bnd
+*BindingSource				bns
+*BindingNavigator			bnn
+Button						btn
+CheckBox						chk
+CheckedListBox				clst
+ComboBox						cbo
+Control						ctrl
+ContextMenu					cmnu
+CrystalReportWriter		crv
+Cursor						cur
+DataGrid						dgr
+DataGridColumn				dgrc
+*DataGridView				dgv
+*DataGridViewColumn		dgvc
+DateTimePicker				dtp
+Dialog (OpenFile...)		dlg
+DomainUpDown				dom
+ErrorProvider				err
+*FlowLayoutPanel			flp
+Form							frm
+GroupBox						gbx
+HelpProvider				hlp
+HScrollBar					hsb
+ImageList					iml
+Label							lbl
+LinkLabel					lnk
+ListBox						lst
+ListView						lvw
+ListViewItem				litm
+MainMenu & MenuItem		mnu
+MaskEditBox(ActiveX)		msk
+MaskedTextBox				msk
+MonthCalendar				cal
+NotifyIcon					not
+NumericUpDown				num
+Panel							pnl
+PrintDocument				pdoc
+PictureBox					pic
+PrintPreviewControl		ppc
+ProgressBar					pba	pbr
+PropertyGrid				pgrd
+RadioButton					rad
+*ReportViewer				rvw
+RichTextBox					rtb
+*SerialPort					sprt
+Splitter						spl
+*SplitContainer			spc
+StatusBar					sba	sbr
+TabControl					tab
+*TableLayoutPanel			tlp
+TextBox						txt
+Timer							tmr
+ToolBar						tba	tbr
+ToolBarButton				tbtn
+ToolTip						tip
+TrackBar						tba	tbr
+TreeNode						tvn
+TreeView						tvw
+VScrollBar					vsb
+WebBrowser(ActiveX)		web
+
+-------------------------------------
+Объекты GDI+
+-------------------------------------
+BitMap						bmp
+Brush...						bru
+Color							clr
+ColorPalette				pal	
+Font							fnt
+Graphics						gra
+GraphicsPath				grp	
+Icon							ico
+Image							img
+MetaFile						mfl
+PageSettings				pags	
+Pen							pen
+Point							pnt
+PrintController			pcon		
+PrinterSettings			prns		
+Rectangle					rec
+Region						reg
+Size							siz
+
+-------------------------------------
+Компоненты Windows
+-------------------------------------
+*BackGroundWorker			bgw
+DirectoryEntry				ade
+DirectorySeacher			ads		
+FileSystemWatcher			fsw		
+EventLog						evl
+MessageQueue				msq	
+PerfomanceCounter			pco		
+Process						prc
+ReportDocument				rep	
+ServiceController			svc		
+Timer							tmr
+
+-------------------------------------
+Объекты ADO
+-------------------------------------
+ColumnMapping				clm
+Connection					cn
+Command						cmd
+DataAdapter					da
+DataColumn					dc
+DataReader					dr
+DataRow						dro
+DataSet						ds
+DataTable					dt
+DataView						dv
+Parameter					par
+Transaction					tran
+TableMapping				tbm

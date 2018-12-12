@@ -1,0 +1,1473 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<V8Data>
+	<goods>
+		<erpcode>00000000865</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Шпинат кл.1 400гр</alias>
+		<name>Шпинат кл.1 400гр</name>
+		<barcode>4607160460031</barcode>
+		<netto>1.0</netto>
+		<brutto>1.1</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>false</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000867</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Цветная  капуста кл.1 400гр</alias>
+		<name>Цветная  капуста кл.1 400гр</name>
+		<barcode>4607160460116</barcode>
+		<netto>1.0</netto>
+		<brutto>1.1</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>false</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000868</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Капуста брокколи  кл.1 400 гр</alias>
+		<name>Капуста брокколи  кл.1 400 гр</name>
+		<barcode>4607160460093</barcode>
+		<netto>1.0</netto>
+		<brutto>1.1</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>false</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000869</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Брюссельская капуста кл.1 400гр</alias>
+		<name>Брюссельская капуста кл.1 400гр</name>
+		<barcode>2700000000205</barcode>
+		<netto>1.0</netto>
+		<brutto>1.1</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>false</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000870</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Фасоль резанная кл.1 400гр</alias>
+		<name>Фасоль резанная кл.1 400гр</name>
+		<barcode>4607160460055</barcode>
+		<netto>1.0</netto>
+		<brutto>1.1</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>false</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000871</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Зеленый горошек кл.1 400гр</alias>
+		<name>Зеленый горошек кл.1 400гр</name>
+		<barcode>4607160460017</barcode>
+		<netto>1.0</netto>
+		<brutto>1.1</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>false</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000872</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Перец сладкий резаный 400 гр</alias>
+		<name>Перец сладкий резаный 400 гр</name>
+		<barcode/>
+		<netto>1.0</netto>
+		<brutto>1.1</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>false</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000873</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Шампиньоны целые 400гр</alias>
+		<name>Шампиньоны целые 400гр</name>
+		<barcode>4607160460154</barcode>
+		<netto>1.0</netto>
+		<brutto>1.1</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>false</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000874</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Шампиньоны резанные 400гр</alias>
+		<name>Шампиньоны резанные 400гр</name>
+		<barcode>4607160460130</barcode>
+		<netto>1.0</netto>
+		<brutto>1.1</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>false</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000875</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Клубника 400гр</alias>
+		<name>Клубника 400гр</name>
+		<barcode>4607160460253</barcode>
+		<netto>1.0</netto>
+		<brutto>1.1</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>false</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000876</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Вишня без косточки 400гр</alias>
+		<name>Вишня без косточки 400гр</name>
+		<barcode>4607160460277</barcode>
+		<netto>1.0</netto>
+		<brutto>1.1</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>false</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000877</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Малина 300гр</alias>
+		<name>Малина 300гр</name>
+		<barcode>4607160460239</barcode>
+		<netto>1.0</netto>
+		<brutto>1.1</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>false</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000878</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Ежевика 300гр</alias>
+		<name>Ежевика 300гр</name>
+		<barcode/>
+		<netto>1.0</netto>
+		<brutto>1.1</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>false</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000879</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Клюква  400гр</alias>
+		<name>Клюква  400гр</name>
+		<barcode/>
+		<netto>1.0</netto>
+		<brutto>1.1</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>false</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000880</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Фруктовое ассорти 400гр</alias>
+		<name>Фруктовое ассорти 400гр</name>
+		<barcode/>
+		<netto>1.0</netto>
+		<brutto>1.1</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>false</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000881</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Борщ украинский 400гр</alias>
+		<name>Борщ украинский 400гр</name>
+		<barcode/>
+		<netto>1.0</netto>
+		<brutto>1.1</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>false</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000882</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Суп с лесными грибами 400гр</alias>
+		<name>Суп с лесными грибами 400гр</name>
+		<barcode/>
+		<netto>1.0</netto>
+		<brutto>1.1</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>false</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000883</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Щавелевый суп 400гр</alias>
+		<name>Щавелевый суп 400гр</name>
+		<barcode/>
+		<netto>1.0</netto>
+		<brutto>1.1</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>false</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000884</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Овощи для жарки с шампиньонами 400гр</alias>
+		<name>Овощи для жарки с шампиньонами 400гр</name>
+		<barcode>5903154541304</barcode>
+		<netto>1.0</netto>
+		<brutto>1.1</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>false</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000885</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Овощи для жарки 400гр</alias>
+		<name>Овощи для жарки 400гр</name>
+		<barcode>4607160460710</barcode>
+		<netto>1.0</netto>
+		<brutto>1.1</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>false</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000886</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Гавайская смесь 400гр</alias>
+		<name>Гавайская смесь 400гр</name>
+		<barcode>4607160460550</barcode>
+		<netto>1.0</netto>
+		<brutto>1.1</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>false</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000887</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Мексиканская смесь 400гр</alias>
+		<name>Мексиканская смесь 400гр</name>
+		<barcode>4607160460574</barcode>
+		<netto>1.0</netto>
+		<brutto>1.1</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>false</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000888</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Итальянская смесь 400гр</alias>
+		<name>Итальянская смесь 400гр</name>
+		<barcode>4607160460451</barcode>
+		<netto>1.0</netto>
+		<brutto>1.1</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>false</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000889</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Американская смесь 400гр</alias>
+		<name>Американская смесь 400гр</name>
+		<barcode/>
+		<netto>1.0</netto>
+		<brutto>1.1</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>false</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000890</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Жаркое с грибами 400гр</alias>
+		<name>Жаркое с грибами 400гр</name>
+		<barcode>4607160460697</barcode>
+		<netto>1.0</netto>
+		<brutto>1.1</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>false</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000891</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Картофель с лесными грибами 400гр</alias>
+		<name>Картофель с лесными грибами 400гр</name>
+		<barcode/>
+		<netto>1.0</netto>
+		<brutto>1.1</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>false</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000892</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Смесь брокколи 400гр</alias>
+		<name>Смесь брокколи 400гр</name>
+		<barcode/>
+		<netto>1.0</netto>
+		<brutto>1.1</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>false</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000893</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Овощи весенние 400гр</alias>
+		<name>Овощи весенние 400гр</name>
+		<barcode/>
+		<netto>1.0</netto>
+		<brutto>1.1</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>false</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000894</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Паприкаш 400гр</alias>
+		<name>Паприкаш 400гр</name>
+		<barcode>4607160460673</barcode>
+		<netto>1.0</netto>
+		<brutto>1.1</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>false</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000895</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Лечо 400гр</alias>
+		<name>Лечо 400гр</name>
+		<barcode/>
+		<netto>1.0</netto>
+		<brutto>1.1</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>false</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000896</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Рататуй 400гр</alias>
+		<name>Рататуй 400гр</name>
+		<barcode/>
+		<netto>1.0</netto>
+		<brutto>1.1</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>false</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000897</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Соте 400гр</alias>
+		<name>Соте 400гр</name>
+		<barcode>4607160460598</barcode>
+		<netto>1.0</netto>
+		<brutto>1.1</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>false</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000898</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Восточная смесь 400гр</alias>
+		<name>Восточная смесь 400гр</name>
+		<barcode/>
+		<netto>1.0</netto>
+		<brutto>1.1</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>false</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000899</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Витаминная смесь 400гр</alias>
+		<name>Витаминная смесь 400гр</name>
+		<barcode/>
+		<netto>1.0</netto>
+		<brutto>1.1</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>false</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000900</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Овощи для жарки по-китайски 400гр</alias>
+		<name>Овощи для жарки по-китайски 400гр</name>
+		<barcode/>
+		<netto>1.0</netto>
+		<brutto>1.1</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>false</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000943</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Баклажаны кубики 10х10 п/фабр.</alias>
+		<name>Баклажаны кубики 10х10 п/фабр.</name>
+		<barcode>2700000000236</barcode>
+		<netto>1.0</netto>
+		<brutto>1.1</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>true</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000944</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Белокочанная капуста 6-8мм п/фабр.</alias>
+		<name>Белокочанная капуста 6-8мм п/фабр.</name>
+		<barcode/>
+		<netto>0</netto>
+		<brutto>0</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>true</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000945</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Брюссельская капуста кл.1 п/фабр.</alias>
+		<name>Брюссельская капуста кл.1 п/фабр.</name>
+		<barcode/>
+		<netto>0</netto>
+		<brutto>0</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>true</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000946</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Брюссельская капуста кл.1 до 40мм п/фабр.</alias>
+		<name>Брюссельская капуста кл.1 до 40мм п/фабр.</name>
+		<barcode/>
+		<netto>0</netto>
+		<brutto>0</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>true</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000947</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Брусника п/фабр.</alias>
+		<name>Брусника п/фабр.</name>
+		<barcode/>
+		<netto>0</netto>
+		<brutto>0</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>true</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000948</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Гриб "подберезовик" резанный п/фабр.</alias>
+		<name>Гриб "подберезовик" резанный п/фабр.</name>
+		<barcode/>
+		<netto>0</netto>
+		<brutto>0</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>true</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000949</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Зеленый горошек кл.1 п/фабр.</alias>
+		<name>Зеленый горошек кл.1 п/фабр.</name>
+		<barcode/>
+		<netto>0</netto>
+		<brutto>0</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>true</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000950</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Зеленый горошек стручки п/фабр.</alias>
+		<name>Зеленый горошек стручки п/фабр.</name>
+		<barcode/>
+		<netto>0</netto>
+		<brutto>0</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>true</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000951</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Зеленый горошек </alias>
+		<name>Зеленый горошек </name>
+		<barcode/>
+		<netto>0</netto>
+		<brutto>0</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>true</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000952</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Зеленый горошек кл.2 жесткость до 145 п/фабр.</alias>
+		<name>Зеленый горошек кл.2 жесткость до 145 п/фабр.</name>
+		<barcode/>
+		<netto>0</netto>
+		<brutto>0</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>true</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000953</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Капуста брокколи кл.1 40-60мм п/фабр.</alias>
+		<name>Капуста брокколи кл.1 40-60мм п/фабр.</name>
+		<barcode/>
+		<netto>0</netto>
+		<brutto>0</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>true</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000954</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Капуста брокколи кл.1 до 40мм п/фабр.</alias>
+		<name>Капуста брокколи кл.1 до 40мм п/фабр.</name>
+		<barcode/>
+		<netto>0</netto>
+		<brutto>0</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>true</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000955</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Картофель пласты обжаренные 5-8мм п/фабр.</alias>
+		<name>Картофель пласты обжаренные 5-8мм п/фабр.</name>
+		<barcode/>
+		<netto>0</netto>
+		<brutto>0</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>true</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000956</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Картофель кубики 10х10 п/фабр.</alias>
+		<name>Картофель кубики 10х10 п/фабр.</name>
+		<barcode/>
+		<netto>0</netto>
+		<brutto>0</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>true</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000957</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Клюква п/фабр.</alias>
+		<name>Клюква п/фабр.</name>
+		<barcode/>
+		<netto>0</netto>
+		<brutto>0</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>true</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000958</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Кукуруза мини п/фабр.</alias>
+		<name>Кукуруза мини п/фабр.</name>
+		<barcode/>
+		<netto>0</netto>
+		<brutto>0</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>true</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000959</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Кукуруза зерно кл.2 п/фабр.</alias>
+		<name>Кукуруза зерно кл.2 п/фабр.</name>
+		<barcode/>
+		<netto>0</netto>
+		<brutto>0</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>true</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000960</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Лук кл.1 кубики 10х10 п/фабр.</alias>
+		<name>Лук кл.1 кубики 10х10 п/фабр.</name>
+		<barcode/>
+		<netto>0</netto>
+		<brutto>0</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>true</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000961</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Лук пласты п/фабр.</alias>
+		<name>Лук пласты п/фабр.</name>
+		<barcode/>
+		<netto>0</netto>
+		<brutto>0</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>true</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000962</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Лук-порей кл.1 пласты 5-8мм п/фабр.</alias>
+		<name>Лук-порей кл.1 пласты 5-8мм п/фабр.</name>
+		<barcode/>
+		<netto>0</netto>
+		<brutto>0</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>true</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000963</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Маслины без косточек резанные п\фабр.</alias>
+		<name>Маслины без косточек резанные п\фабр.</name>
+		<barcode/>
+		<netto>0</netto>
+		<brutto>0</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>true</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000964</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Морковь мини п/фабр.</alias>
+		<name>Морковь мини п/фабр.</name>
+		<barcode/>
+		<netto>0</netto>
+		<brutto>0</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>true</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000965</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Морковь кл.2 кубики 10х10</alias>
+		<name>Морковь кл.2 кубики 10х10</name>
+		<barcode/>
+		<netto>0</netto>
+		<brutto>0</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>true</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000966</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Морковь пласты волнистые 5-8мм п/фабр.</alias>
+		<name>Морковь пласты волнистые 5-8мм п/фабр.</name>
+		<barcode/>
+		<netto>0</netto>
+		<brutto>0</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>true</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000967</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Морковь столбики 4х4 п/фабр.</alias>
+		<name>Морковь столбики 4х4 п/фабр.</name>
+		<barcode/>
+		<netto>0</netto>
+		<brutto>0</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>true</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000968</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Перец желтый дольки 5-8мм п/фабр.</alias>
+		<name>Перец желтый дольки 5-8мм п/фабр.</name>
+		<barcode/>
+		<netto>0</netto>
+		<brutto>0</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>true</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000969</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Перец зеленый дольки 5-8мм</alias>
+		<name>Перец зеленый дольки 5-8мм</name>
+		<barcode/>
+		<netto>0</netto>
+		<brutto>0</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>true</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000970</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Перец красный 20х20 п/фабр.</alias>
+		<name>Перец красный 20х20 п/фабр.</name>
+		<barcode/>
+		<netto>0</netto>
+		<brutto>0</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>true</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000971</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Перец красный дольки 5-8мм п/фабр.</alias>
+		<name>Перец красный дольки 5-8мм п/фабр.</name>
+		<barcode/>
+		<netto>0</netto>
+		<brutto>0</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>true</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000972</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Перец красный нарезка 10х10мм п/фабр.</alias>
+		<name>Перец красный нарезка 10х10мм п/фабр.</name>
+		<barcode/>
+		<netto>0</netto>
+		<brutto>0</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>true</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000973</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Петрушка кубики 10х10мм п/фабр.</alias>
+		<name>Петрушка кубики 10х10мм п/фабр.</name>
+		<barcode/>
+		<netto>0</netto>
+		<brutto>0</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>true</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000974</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Помидоры кубики 10х10мм п/фабр.</alias>
+		<name>Помидоры кубики 10х10мм п/фабр.</name>
+		<barcode/>
+		<netto>0</netto>
+		<brutto>0</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>true</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000975</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Ростки бамбука п/фабр.</alias>
+		<name>Ростки бамбука п/фабр.</name>
+		<barcode/>
+		<netto>0</netto>
+		<brutto>0</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>true</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000976</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Рис бланшированный п/фабр.</alias>
+		<name>Рис бланшированный п/фабр.</name>
+		<barcode/>
+		<netto>0</netto>
+		<brutto>0</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>true</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000977</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Свекла красная кубики 10х10мм п/фабр.</alias>
+		<name>Свекла красная кубики 10х10мм п/фабр.</name>
+		<barcode/>
+		<netto>0</netto>
+		<brutto>0</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>true</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000978</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Сельдерей кубики 10х10мм п/фабр.</alias>
+		<name>Сельдерей кубики 10х10мм п/фабр.</name>
+		<barcode/>
+		<netto>0</netto>
+		<brutto>0</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>true</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000979</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Фасоль резанная кл.1 п/фабр.</alias>
+		<name>Фасоль резанная кл.1 п/фабр.</name>
+		<barcode/>
+		<netto>0</netto>
+		<brutto>0</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>true</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000980</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Фасоль резанная кл.2 26мм п/фабр.</alias>
+		<name>Фасоль резанная кл.2 26мм п/фабр.</name>
+		<barcode/>
+		<netto>0</netto>
+		<brutto>0</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>true</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000981</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Цветная капуста кл.1 40-60мм п/фабр.</alias>
+		<name>Цветная капуста кл.1 40-60мм п/фабр.</name>
+		<barcode/>
+		<netto>0</netto>
+		<brutto>0</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>true</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000982</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Цветная капуста кл.1 до 40мм</alias>
+		<name>Цветная капуста кл.1 до 40мм</name>
+		<barcode/>
+		<netto>0</netto>
+		<brutto>0</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>true</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000983</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Цуккини кубики 10х10мм п/фабр.</alias>
+		<name>Цуккини кубики 10х10мм п/фабр.</name>
+		<barcode/>
+		<netto>0</netto>
+		<brutto>0</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>true</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000984</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Цуккини пласты волнистые 5-8мм п/фабр.</alias>
+		<name>Цуккини пласты волнистые 5-8мм п/фабр.</name>
+		<barcode/>
+		<netto>0</netto>
+		<brutto>0</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>true</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000985</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Шампиньоны резанные 5-8мм п/фабр.</alias>
+		<name>Шампиньоны резанные 5-8мм п/фабр.</name>
+		<barcode/>
+		<netto>0</netto>
+		<brutto>0</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>true</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000986</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Шампиньоны целые п/фабр. </alias>
+		<name>Шампиньоны целые п/фабр. </name>
+		<barcode/>
+		<netto>0</netto>
+		<brutto>0</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>true</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000987</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Шпинат резанный кл.1 п/фабр.</alias>
+		<name>Шпинат резанный кл.1 п/фабр.</name>
+		<barcode/>
+		<netto>0</netto>
+		<brutto>0</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>true</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000988</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Щавель п/фабр.</alias>
+		<name>Щавель п/фабр.</name>
+		<barcode/>
+		<netto>0</netto>
+		<brutto>0</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>true</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000989</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Черный китайский гриб п/фабр.</alias>
+		<name>Черный китайский гриб п/фабр.</name>
+		<barcode/>
+		<netto>0</netto>
+		<brutto>0</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>true</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000990</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Вишня без косточки п/фабр.</alias>
+		<name>Вишня без косточки п/фабр.</name>
+		<barcode/>
+		<netto>0</netto>
+		<brutto>0</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>true</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000991</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Ежевика п/фабр.</alias>
+		<name>Ежевика п/фабр.</name>
+		<barcode>2700000000229</barcode>
+		<netto>1.0</netto>
+		<brutto>1.1</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>true</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000992</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Клубника п/фабр.</alias>
+		<name>Клубника п/фабр.</name>
+		<barcode>2700000000212</barcode>
+		<netto>1.0</netto>
+		<brutto>1.1</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>true</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000993</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Малина п/фабр.</alias>
+		<name>Малина п/фабр.</name>
+		<barcode/>
+		<netto>0</netto>
+		<brutto>0</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>true</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000994</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Слива без косточки п/фабр.</alias>
+		<name>Слива без косточки п/фабр.</name>
+		<barcode/>
+		<netto>0</netto>
+		<brutto>0</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>true</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000000995</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Черная смородина п/фабр.</alias>
+		<name>Черная смородина п/фабр.</name>
+		<barcode/>
+		<netto>0</netto>
+		<brutto>0</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>true</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000001076</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Брусника 400гр</alias>
+		<name>Брусника 400гр</name>
+		<barcode/>
+		<netto>1.0</netto>
+		<brutto>1.1</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>false</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000001116</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Черная смородина 400гр</alias>
+		<name>Черная смородина 400гр</name>
+		<barcode>4607160460192</barcode>
+		<netto>1.0</netto>
+		<brutto>1.1</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>false</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000001371</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Цветная капуста 2,5кг</alias>
+		<name>Цветная капуста 2,5кг</name>
+		<barcode/>
+		<netto>1.0</netto>
+		<brutto>1.1</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>false</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000001373</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Шпинат в листьях 2кг</alias>
+		<name>Шпинат в листьях 2кг</name>
+		<barcode/>
+		<netto>1.0</netto>
+		<brutto>1.1</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>false</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000001360</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Шпинат в листьях п.фабрикат</alias>
+		<name>Шпинат в листьях п.фабрикат</name>
+		<barcode/>
+		<netto>0</netto>
+		<brutto>0</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>true</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000001361</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Вишня без косточки 2,5кг</alias>
+		<name>Вишня без косточки 2,5кг</name>
+		<barcode/>
+		<netto>1.0</netto>
+		<brutto>1.1</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>false</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000001363</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Зеленый горошек 2,5кг</alias>
+		<name>Зеленый горошек 2,5кг</name>
+		<barcode/>
+		<netto>1.0</netto>
+		<brutto>1.1</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>false</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000001364</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Капуста брокколи 2кг</alias>
+		<name>Капуста брокколи 2кг</name>
+		<barcode/>
+		<netto>1.0</netto>
+		<brutto>1.1</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>false</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000001366</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Клубника 2,5кг</alias>
+		<name>Клубника 2,5кг</name>
+		<barcode/>
+		<netto>1.0</netto>
+		<brutto>1.1</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>false</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+	<goods>
+		<erpcode>00000001369</erpcode>
+		<erpgoodgroup>**0</erpgoodgroup>
+		<erpgoodbrand>**001</erpgoodbrand>
+		<alias>Фасоль стручковая резаная 2,5кг</alias>
+		<name>Фасоль стручковая резаная 2,5кг</name>
+		<barcode/>
+		<netto>1.0</netto>
+		<brutto>1.1</brutto>
+		<retention>360</retention>
+		<weighting>false</weighting>
+		<halfstuff>false</halfstuff>
+		<gravity>A</gravity>
+		<actual>true</actual>
+	</goods>
+</V8Data>

@@ -1,0 +1,369 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{55675003-976F-4F62-866C-E2D869F8FE64}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SuitableWMS</RootNamespace>
+    <AssemblyName>SuitableWMS</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.Framework, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.InfoStore, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.Compatibility" />
+    <Reference Include="stdole, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\WINDOWS\assembly\GAC_MSIL\System.Web.Services\2.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Forms\frmCellsAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmCellsAdd.designer.cs">
+      <DependentUpon>frmCellsAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmCellsAddressEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmCellsAddressEdit.designer.cs">
+      <DependentUpon>frmCellsAddressEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmCellsFixedEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmCellsFixedEdit.designer.cs">
+      <DependentUpon>frmCellsFixedEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmCellsGeometryEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmCellsGeometryEdit.designer.cs">
+      <DependentUpon>frmCellsGeometryEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmChild.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmChild.designer.cs">
+      <DependentUpon>frmChild.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTest.designer.cs">
+      <DependentUpon>frmTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmTraffics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmTraffics.designer.cs">
+      <DependentUpon>frmTraffics.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\FrameLabelList.cs">
+      <DependentUpon>FrameLabelList.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Reports\InputBillBarCode.cs">
+      <DependentUpon>InputBillBarCode.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Reports\InputBill1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>InputBill.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Forms\frmCells.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmCells.designer.cs">
+      <DependentUpon>frmCells.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmFrames.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmFrames.designer.cs">
+      <DependentUpon>frmFrames.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmInputs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmInputs.designer.cs">
+      <DependentUpon>frmInputs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmInputsEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmInputsEdit.designer.cs">
+      <DependentUpon>frmInputsEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SysForms\frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SysForms\frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmSelectOnePacking.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmSelectOnePacking.Designer.cs">
+      <DependentUpon>frmSelectOnePacking.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\FrameLabel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FrameLabel.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="SysForms\sysInputBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\frmCellsAdd.resx">
+      <DependentUpon>frmCellsAdd.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmCellsAddressEdit.resx">
+      <DependentUpon>frmCellsAddressEdit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmCellsFixedEdit.resx">
+      <DependentUpon>frmCellsFixedEdit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmCellsGeometryEdit.resx">
+      <DependentUpon>frmCellsGeometryEdit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmChild.resx">
+      <DependentUpon>frmChild.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTest.resx">
+      <DependentUpon>frmTest.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmTraffics.resx">
+      <DependentUpon>frmTraffics.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\FrameLabelList.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>FrameLabelList.cs</LastGenOutput>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\InputBillBarCode.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>InputBillBarCode.cs</LastGenOutput>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\InputBill.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>InputBill1.cs</LastGenOutput>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmCells.resx">
+      <DependentUpon>frmCells.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmFrames.resx">
+      <DependentUpon>frmFrames.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmInputs.resx">
+      <DependentUpon>frmInputs.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmInputsEdit.resx">
+      <DependentUpon>frmInputsEdit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SysForms\frmLogin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmSelectOnePacking.resx">
+      <DependentUpon>frmSelectOnePacking.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\FrameLabel.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>FrameLabel.cs</LastGenOutput>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SysForms\sysInputBox.resx">
+      <DependentUpon>sysInputBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SysForms\sysInputBoxNumeric.resx">
+      <DependentUpon>sysInputBoxNumeric.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SysForms\sysReport.resx">
+      <DependentUpon>sysReport.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="App.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="SysForms\sysInputBoxNumeric.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SysForms\sysReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SysForms\sysReport.designer.cs">
+      <DependentUpon>sysReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_DS\InputBillBarCode.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>InputBillBarCode.xsd</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="WMSBarCode\WMSBarCode.vbproj">
+      <Project>{AF9A9BD6-77CB-4014-9A97-7B5DC94C8D5D}</Project>
+      <Name>WMSBarCode</Name>
+    </ProjectReference>
+    <ProjectReference Include="WMSBaseClasses\WMSBaseClasses.csproj">
+      <Project>{CC843C2B-B011-45D9-9F63-E0309079CD44}</Project>
+      <Name>WMSBaseClasses</Name>
+    </ProjectReference>
+    <ProjectReference Include="WMSBizObjects\WMSBizObjects.csproj">
+      <Project>{7BF24B71-041C-405D-B414-676CF4F1F89D}</Project>
+      <Name>WMSBizObjects</Name>
+    </ProjectReference>
+    <ProjectReference Include="WMSPublic\WMSPublic.csproj">
+      <Project>{F7191BE8-74B6-4D1B-BF6E-3F8CB6C57719}</Project>
+      <Name>WMSPublic</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DeleteAll.gif" />
+    <None Include="Resources\add.gif" />
+    <None Include="Resources\Detail.gif" />
+    <None Include="Resources\CheckGreen.gif" />
+    <None Include="Resources\CheckBox_No.gif" />
+    <None Include="Resources\CheckGreenLight.gif" />
+    <None Include="Resources\CheckGreenOff.gif" />
+    <None Include="Resources\CheckRed.gif" />
+    <None Include="Resources\Check.gif" />
+    <None Include="Resources\CheckBox_Green.bmp" />
+    <None Include="Resources\CheckBox_Green.gif" />
+    <None Include="Resources\CheckBox_Red.gif" />
+    <None Include="Resources\Box_full.gif" />
+    <None Include="Resources\Copy.gif" />
+    <Content Include="Resources\DotGreen.gif" />
+    <Content Include="Resources\DotRed.gif" />
+    <Content Include="Resources\DotYellow.gif" />
+    <None Include="Resources\Refresh.gif" />
+    <None Include="Resources\Previous.gif" />
+    <None Include="Resources\Next.gif" />
+    <None Include="Resources\Geometry1.gif" />
+    <None Include="Resources\Geometry.gif" />
+    <None Include="Resources\Lock1.gif" />
+    <None Include="Resources\Flag.gif" />
+    <None Include="Resources\Sum.gif" />
+    <None Include="Resources\Service.gif" />
+    <None Include="Resources\Empty.gif" />
+    <None Include="Resources\save.gif" />
+    <None Include="Resources\Go_red.gif" />
+    <None Include="Resources\Go_blue.gif" />
+    <None Include="Resources\Help.gif" />
+    <None Include="Resources\go.gif" />
+    <None Include="Resources\exit.gif" />
+    <None Include="_DS\InputBillBarCode.xsc">
+      <DependentUpon>InputBillBarCode.xsd</DependentUpon>
+    </None>
+    <None Include="_DS\InputBillBarCode.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>InputBillBarCode.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="_DS\InputBillBarCode.xss">
+      <DependentUpon>InputBillBarCode.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

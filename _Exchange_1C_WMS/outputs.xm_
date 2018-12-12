@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<V8Data>
+	<outputs>
+		<erpcode>CO00000000001</erpcode>
+		<erpbarcode>CO07100900000000001</erpbarcode>
+		<dateoutput>2007-10-31T00:00:00</dateoutput>
+		<erppartner>000000276</erppartner>
+		<erpowner>**001</erpowner>
+		<erpoutputtype>**002</erpoutputtype>
+		<erpgoodstate>000000001</erpgoodstate>
+		<note/>
+	</outputs>
+	<OutputsGoods>
+		<erpcode>CO000000000011</erpcode>
+		<erpoutput>CO00000000001</erpoutput>
+		<erpgood>00000000875</erpgood>
+		<inbox>8</inbox>
+		<qntwished>1728</qntwished>
+	</OutputsGoods>
+	<outputs>
+		<erpcode>BM00000000132</erpcode>
+		<erpbarcode>BM07100100000000132</erpbarcode>
+		<dateoutput>2007-10-31T15:11:00</dateoutput>
+		<erppartner>**001</erppartner>
+		<erpowner>**001</erpowner>
+		<erpoutputtype>**004</erpoutputtype>
+		<erpgoodstate>000000001</erpgoodstate>
+		<note/>
+	</outputs>
+	<OutputsGoods>
+		<erpcode>BM000000001321</erpcode>
+		<erpoutput>BM00000000132</erpoutput>
+		<erpgood>00000000992</erpgood>
+		<inbox>20</inbox>
+		<qntwished>600</qntwished>
+	</OutputsGoods>
+</V8Data>

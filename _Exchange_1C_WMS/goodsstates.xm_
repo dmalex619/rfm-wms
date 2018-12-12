@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<V8Data>
+	<goodsstates>
+		<name>_Новый</name>
+		<note/>
+		<erpowner/>
+		<basic>true</basic>
+		<actual>true</actual>
+		<erpcode>000000001</erpcode>
+	</goodsstates>
+	<goodsstates>
+		<name>Брак</name>
+		<note/>
+		<erpowner/>
+		<basic>false</basic>
+		<actual>true</actual>
+		<erpcode>000000002</erpcode>
+	</goodsstates>
+</V8Data>

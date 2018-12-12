@@ -1,0 +1,69 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="&szlig;&divide;&aring;&eacute;&ecirc;&agrave;">
+		<param name="Name" value="Список ячеек ">
+		<param name="Local" value="html\CellsList.htm">
+		<param name="URL" value="html\CellsBuffer.htm">
+		<param name="Name" value="Склад">
+		<param name="Local" value="html\Cells.htm">
+		<param name="Name" value="Добавление диапазона ячеек ">
+		<param name="Local" value="html\CellsAddRange.htm">
+		<param name="Name" value="Добавление одной ячейки">
+		<param name="Local" value="html\CellsAddSpecial.htm">
+		<param name="Name" value="Исправление состояния ячейки">
+		<param name="Local" value="html\CellsMedication.htm">
+		<param name="Name" value="Назначение буферной ячейки">
+		<param name="Local" value="html\CellsBuffer.htm">
+		<param name="Name" value="Редактирование геометрических параметров ячейки">
+		<param name="Local" value="html\CellsGeometryEdit.htm">
+		<param name="Name" value="Редактирование фиксированных закреплений ячейки">
+		<param name="Local" value="html\CellsFixedEdit.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="&Iuml;&eth;&egrave;&otilde;&icirc;&auml;">
+		<param name="Name" value="Список приходов ">
+		<param name="Local" value="html\InputsList.htm">
+		<param name="Name" value="Подтверждение прихода">
+		<param name="Local" value="html\InputsConfirm.htm">
+		<param name="Name" value="Редактирование прихода">
+		<param name="Local" value="html\InputsEdit.htm">
+		<param name="Name" value="Приходы">
+		<param name="Local" value="html\Inputs.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="&Icirc;&ntilde;&ograve;&agrave;&ograve;&icirc;&ecirc;">
+		<param name="Name" value="Остатки">
+		<param name="Local" value="html\Oddments.htm">
+		<param name="Name" value="Список остатков ">
+		<param name="Local" value="html\OddmentsList.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="&Ograve;&eth;&agrave;&iacute;&ntilde;&iuml;&icirc;&eth;&ograve;&egrave;&eth;&icirc;&acirc;&ecirc;&agrave;">
+		<param name="Name" value="Добавление операции транспортировки">
+		<param name="Local" value="html\TrafficsAdd.htm">
+		<param name="Name" value="Редактирование / выполнение операции транспортировки ">
+		<param name="Local" value="html\TrafficsEdit.htm">
+		<param name="Name" value="Список операций транспортировки">
+		<param name="Local" value="html\TrafficsList.htm">
+		<param name="Name" value="Транспортировки">
+		<param name="Local" value="html\Traffics.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="&Ecirc;&icirc;&iacute;&ograve;&aring;&eacute;&iacute;&aring;&eth;">
+		<param name="Name" value="Добавление контейнеров ">
+		<param name="Local" value="html\FramesAdd.htm">
+		<param name="Name" value="Контейнеры ">
+		<param name="Local" value="html\Frames.htm">
+		<param name="Name" value="Редактирование геометрических параметров контейнера: высоты и типаподдона">
+		<param name="Local" value="html\FramesGeometryEdit.htm">
+		<param name="Name" value="Список контейнеров ">
+		<param name="Local" value="html\FramesList.htm">
+		</OBJECT>
+</UL>
+</BODY></HTML>

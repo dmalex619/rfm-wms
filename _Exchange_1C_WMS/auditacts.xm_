@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<V8Data>
+	<AuditActs>
+		<erpcode>AA00000000002</erpcode>
+		<dateaudit>2008-03-15T12:45:00</dateaudit>
+		<erpowner>4</erpowner>
+		<erpgoodstate>1</erpgoodstate>
+		<note>First Act</note>
+	</AuditActs>
+	<AuditActsGoods>
+		<erpcode>AA000000000021</erpcode>
+		<erpauditact>AA00000000002</erpauditact>
+		<erpgood>2344</erpgood>
+		<inbox>35</inbox>
+		<qnt>-70</qnt>
+	</AuditActsGoods>
+	<AuditActsGoods>
+		<erpcode>AA000000000022</erpcode>
+		<erpauditact>AA00000000002</erpauditact>
+		<erpgood>1955</erpgood>
+		<inbox>12</inbox>
+		<qnt>-120</qnt>
+	</AuditActsGoods>
+</V8Data>

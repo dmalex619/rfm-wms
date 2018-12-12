@@ -1,0 +1,553 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Text;
+using System.Windows.Forms;
+
+using RFMBaseClasses;
+using WMSBizObjects;
+using RFMPublic;
+
+namespace WMSSuitable
+{
+	public partial class frmOutputsGoodsConfirm : RFMFormChild
+	{
+		private int ID;
+		private Output oOutput;
+		private StoreZone oStoresZones;
+		private User oUsers;
+		private DataTable tTable; // источник grid 
+		
+		public frmOutputsGoodsConfirm(int? _ID)
+		{
+			oOutput = new Output();
+			oStoresZones = new StoreZone();
+			oUsers = new User();
+			if (oOutput.ErrorNumber != 0 ||
+				oStoresZones.ErrorNumber != 0 ||
+				oUsers.ErrorNumber != 0)
+			{
+				IsValid = false;
+			}
+
+			if (IsValid)
+			{
+				InitializeComponent();
+
+				if (_ID.HasValue)
+					ID = (int)_ID;
+
+				dgvOutputGoodsShipment.ReadOnly = false;
+				foreach (DataGridViewColumn c in dgvOutputGoodsShipment.Columns)
+				{
+					c.ReadOnly = !(c.Name.Contains("Check") || c.Name.Contains("Confirmed"));
+				}
+			}
+		}
+
+		private void frmOutputEdit_Load(object sender, EventArgs e)
+		{
+			bool blResult = cboStoresZones_Restore() &&
+							cboHeavers_Restore();
+			if (!blResult)
+			{
+				RFMMessage.MessageBoxError("Ошибка получения общих данных (классификаторы)...");
+				Dispose();
+				return;
+			}
+
+			if (cboStoresZones.Items.Count == 0)
+			{
+				RFMMessage.MessageBoxError("Нет зон пикинга...");
+				Dispose();
+				return;
+			}
+
+			// сам расход
+			oOutput.ID = ID;
+			oOutput.FillData();
+			if (oOutput.ErrorNumber != 0 || oOutput.MainTable.Rows.Count == 0)
+			{
+				RFMMessage.MessageBoxError("Ошибка при получении данных о расходе...");
+				Dispose();
+				return;
+			}
+
+			// шапка формы 
+			DataRow r = oOutput.MainTable.Rows[0];
+			txtID.Text = r["ID"].ToString();
+			txtErpCode.Text = r["ErpCode"].ToString();
+			txtDateOutput.Text = r["DateOutput"].ToString().Substring(0, 10);
+			txtOutputBarCode.Text = r["BarCode"].ToString();
+
+			txtOwnerName.Text = r["OwnerName"].ToString();
+			txtPartnerName.Text = r["PartnerName"].ToString();
+
+			txtGoodStateName.Text = r["GoodStateName"].ToString();
+			txtOutputTypeName.Text = r["OutputTypeName"].ToString();
+			txtCellAdress.Text = r["CellAddress"].ToString();
+
+			// заполнение таблицы
+			if (ForLoad(false) == 0)
+			{
+				Dispose();
+				return;
+			}
+
+			cboStoresZones.SelectedIndex = -1;
+			//cboStoresZones_SelectedIndexChanged(null, null);
+			dgvOutputGoodsShipment.DataSource = null;
+            cboStoresZones.Select();
+		}
+
+		private int ForLoad(bool bAgain)
+		{
+			oOutput.ClearError(); 
+
+			// перемещения коробок/штук в расходе
+			oOutput.FillTableOutputsTraffics(ID, false);
+			if (oOutput.ErrorNumber != 0)
+			{
+				RFMMessage.MessageBoxError("Ошибка при получении данных о перемещениях коробок/штук для расхода...");
+				return (0);
+			}
+			if (oOutput.TableOutputsTrafficsGoods.Rows.Count == 0)
+			{
+				if (!bAgain)
+				{
+					RFMMessage.MessageBoxInfo("Для расхода не создано перемещений коробок/штук.\n\r" +
+						"Нечего подтверждать...");
+				}
+				return (0);
+			}
+
+			// оставить в списке зон только те, которые есть среди перемещений
+			cboStoresZones.Enabled = true;
+			for (int i = oStoresZones.MainTable.Rows.Count - 1; i >= 0; i--)
+			{
+				DataView dv = new DataView(oOutput.TableOutputsTrafficsGoods);
+				dv.RowFilter = "StoreZoneSourceID = " + oStoresZones.MainTable.Rows[i]["ID"].ToString();
+				if (chkUnConfirmed.Checked)
+				{
+					dv.RowFilter += " and IsConfirmed = false";
+				}
+				if (dv.Count == 0)
+				{
+					oStoresZones.MainTable.Rows.Remove(oStoresZones.MainTable.Rows[i]);
+				}
+			}
+
+            /*
+			if (oStoresZones.MainTable.Rows.Count <= 1)
+			{
+				cboStoresZones.Enabled = false;
+			}
+            */
+
+			btnSelect_Click(null, null);
+
+			if (dgvOutputGoodsShipment.Rows.Count > 0)
+			{
+				// стать на первую строку, в ячейку "Коробок Факт"
+				dgvOutputGoodsShipment.CurrentCell = dgvOutputGoodsShipment.Rows[0].Cells["dgrcBoxConfirmed"];
+			}
+
+			if (oStoresZones.MainTable.Rows.Count == 0)
+			{
+				if (!bAgain)
+				{
+					RFMMessage.MessageBoxInfo("Для расхода нет неподтвержденных перемещений коробок/штук.\n\r" +
+						"Нечего подтверждать...");
+				}
+			}
+
+			return (oStoresZones.MainTable.Rows.Count);
+		}
+
+		private void btnSelect_Click(object sender, EventArgs e)
+		{
+			if (!dgvOuputsShipment_Restore())
+			{
+				RFMMessage.MessageBoxError("Ошибка получения данных о перемещениях коробок/штук...");
+				Dispose();
+			}
+		}
+
+		private void cboStoresZones_SelectedIndexChanged(object sender, EventArgs e)
+		{
+			if (cboStoresZones.SelectedIndex >= 0 && cboStoresZones.SelectedValue != null &&
+				tTable != null)
+			{
+				btnSelect_Click(null, null);
+			}
+		}
+
+		#region Restore
+
+		private bool dgvOuputsShipment_Restore()
+		{
+			RFMCursorWait.LockWindowUpdate(dgvOutputGoodsShipment.Handle);
+
+			/*
+			oTrafficsGoods.FilterOutputsList = ID.ToString();
+			if (cboStoresZones.SelectedValue != null)
+			{
+				oTrafficsGoods.FilterStoresZonesSourceList = cboStoresZones.SelectedValue.ToString();
+			}
+			oTrafficsGoods.FillData();
+			oTrafficsGoods.MainTable.PrimaryKey = new DataColumn[] { oTrafficsGoods.MainTable.Columns["TrafficID"] };
+			dgvOutputGoodsShipment.DataSource = oTrafficsGoods.MainTable;
+			*/
+
+			dgvOutputGoodsShipment.DataSource = null;
+			tTable = null;
+			oOutput.ClearError();
+
+			if (cboStoresZones.SelectedValue != null)
+			{
+				DataView dvz = new DataView(oOutput.TableOutputsTrafficsGoods);
+				dvz.RowFilter = "StoreZoneSourceID = " + cboStoresZones.SelectedValue.ToString();
+				tTable = dvz.ToTable();
+				tTable.PrimaryKey = new DataColumn[] { tTable.Columns["ID"] };
+			}
+			else
+			{
+				tTable = oOutput.TableOutputsTrafficsGoods;
+			}
+
+			dgvOutputGoodsShipment.GridSource = new RFMBindingSource(tTable);
+			if (chkUnConfirmed.Checked)
+			{
+				dgvOutputGoodsShipment.GridSource.Filter = "IsConfirmed = false";
+			}
+			dgvOutputGoodsShipment.Restore(dgvOutputGoodsShipment.GridSource);
+
+			RFMCursorWait.LockWindowUpdate(IntPtr.Zero);
+			return (oOutput.ErrorNumber == 0);
+		}
+
+		private bool cboStoresZones_Restore()
+		{
+			oStoresZones.FilterStoreZoneTypeForPicking = true;
+			oStoresZones.FillData();
+			cboStoresZones.ValueMember = oStoresZones.ColumnID;
+			cboStoresZones.DisplayMember = oStoresZones.MainTable.Columns[("Name")].ToString();
+			cboStoresZones.DataSource = oStoresZones.MainTable;
+			return (oStoresZones.ErrorNumber == 0);
+		}
+
+		private bool cboHeavers_Restore()
+		{
+			oUsers.FillData();
+			cboHeavers.ValueMember = oUsers.ColumnID;
+			cboHeavers.DisplayMember = oUsers.MainTable.Columns[("Name")].ToString();
+			cboHeavers.DataSource = oUsers.MainTable;
+			return (oUsers.ErrorNumber == 0);
+		}
+
+		#endregion 
+
+		#region GridCell...
+
+		private void dgvOutputGoodsShipment_CellFormatting(object sender, DataGridViewCellFormattingEventArgs e)
+		{
+			if (dgvOutputGoodsShipment.DataSource == null || dgvOutputGoodsShipment.CurrentRow == null)
+				return;
+			
+			DataRow droRow = tTable.Rows.Find((int)dgvOutputGoodsShipment.Rows[e.RowIndex].Cells["dgrcID"].Value);
+			if (droRow == null)
+				return;
+
+			if ((bool)droRow["IsConfirmed"])
+				e.CellStyle.BackColor = Color.FromArgb(250, 200, 200);
+			else
+			{
+				if ((decimal)droRow["ForQntConfirmed"] != (decimal)droRow["QntWished"])
+				{
+					if (dgvOutputGoodsShipment.Columns[e.ColumnIndex].Name == "dgrcQntConfirmed" || 
+						dgvOutputGoodsShipment.Columns[e.ColumnIndex].Name == "dgrcBoxConfirmed")
+					e.CellStyle.BackColor = Color.FromArgb(255, 255, 128);
+				}
+			}
+
+			switch (dgvOutputGoodsShipment.Columns[e.ColumnIndex].Name)
+			{
+				case "dgrcInBox":
+				case "dgrcQntWished":
+				case "dgrcQntConfirmed":
+					if (!Convert.IsDBNull(droRow["Weighting"]) &&
+						Convert.ToBoolean(droRow["Weighting"]) ||
+						!Convert.IsDBNull(e.Value) && Convert.ToDecimal(e.Value) != Convert.ToInt32(e.Value))
+						e.CellStyle.Format = "### ### ### ###.000";
+					else
+						e.CellStyle.Format = "### ### ### ###";
+					break;
+			}
+		}
+
+		private void dgvOutputGoodsShipment_CellPainting(object sender, DataGridViewCellPaintingEventArgs e)
+		{
+			if (dgvOutputGoodsShipment.DataSource == null || e.RowIndex == -1 || e.ColumnIndex == -1)
+				return;
+
+			DataRow droRow = tTable.Rows.Find((int)dgvOutputGoodsShipment.Rows[e.RowIndex].Cells["dgrcID"].Value);
+			if (droRow == null)
+				return;
+
+			if ((bool)droRow["IsConfirmed"] &&
+				dgvOutputGoodsShipment.Columns["dgrcCheck"].Index == e.ColumnIndex)
+			{
+				using (
+						Brush gridBrush = new SolidBrush(this.dgvOutputGoodsShipment.GridColor),
+						backColorBrush = new SolidBrush(e.CellStyle.BackColor))
+				{
+					using (Pen gridLinePen = new Pen(gridBrush))
+					{
+						e.Graphics.FillRectangle(backColorBrush, e.CellBounds);
+
+						e.Graphics.DrawLine(gridLinePen, e.CellBounds.Left,
+							e.CellBounds.Bottom - 1, e.CellBounds.Right - 1,
+							e.CellBounds.Bottom - 1);
+
+						e.Graphics.DrawLine(gridLinePen, e.CellBounds.Right - 1,
+							 e.CellBounds.Top, e.CellBounds.Right - 1,
+							e.CellBounds.Bottom);
+						e.Handled = true;
+					}
+				}
+			}
+		}
+
+		private void dgvOutputGoodsShipment_CellEnter(object sender, DataGridViewCellEventArgs e)
+		{
+			if (dgvOutputGoodsShipment.DataSource == null || e.RowIndex == -1 || e.ColumnIndex == -1)
+				return;
+			if (dgvOutputGoodsShipment.Columns[e.ColumnIndex].Name == "dgrcQntConfirmed" ||
+				dgvOutputGoodsShipment.Columns[e.ColumnIndex].Name == "dgrcBoxConfirmed" ||
+				dgvOutputGoodsShipment.Columns[e.ColumnIndex].Name == "dgrcCheck")
+			{
+				DataRow droRow = tTable.Rows.Find((int)dgvOutputGoodsShipment.Rows[e.RowIndex].Cells["dgrcID"].Value);
+
+				if (droRow == null)
+					return;
+
+				if ((bool)droRow["IsConfirmed"])
+				{
+					dgrcCheck.ReadOnly = true;
+					dgrcQntConfirmed.ReadOnly = 
+					dgrcBoxConfirmed.ReadOnly = true;
+				}
+				else
+				{
+					dgrcCheck.ReadOnly = false;
+					if ((bool)dgvOutputGoodsShipment.Rows[e.RowIndex].Cells["dgrcCheck"].Value)
+					{
+						dgrcQntConfirmed.ReadOnly = 
+						dgrcBoxConfirmed.ReadOnly = false;
+					}
+					else
+					{
+						dgrcQntConfirmed.ReadOnly = 
+						dgrcBoxConfirmed.ReadOnly = true;
+					}
+					dgvOutputGoodsShipment.BeginEdit(true);
+				}
+			}
+		}
+
+		private void dgvOutputGoodsShipment_CellEndEdit(object sender, DataGridViewCellEventArgs e)
+		{
+			if (tTable.Rows.Count == 0 || tTable == null)
+				return;
+
+			if (dgvOutputGoodsShipment.Columns[e.ColumnIndex].Name == "dgrcQntConfirmed" ||
+				dgvOutputGoodsShipment.Columns[e.ColumnIndex].Name == "dgrcBoxConfirmed" ||
+				dgvOutputGoodsShipment.Columns[e.ColumnIndex].Name == "dgrcCheck")
+			{
+				DataRow droRow = tTable.Rows.Find((int?)dgvOutputGoodsShipment.Rows[e.RowIndex].Cells["dgrcID"].Value);
+				if (droRow != null)
+				{
+					droRow["Checked"] = (bool)dgvOutputGoodsShipment.Rows[e.RowIndex].Cells["dgrcCheck"].Value;
+
+					decimal nInbox = (decimal)droRow["InBox"];
+					if (dgvOutputGoodsShipment.Columns[e.ColumnIndex].Name == "dgrcQntConfirmed")
+					{ 
+						// меняем штуки
+						droRow["ForQntConfirmed"] = (decimal)dgvOutputGoodsShipment.Rows[e.RowIndex].Cells["dgrcQntConfirmed"].Value;
+						droRow["ForBoxConfirmed"] = (decimal)dgvOutputGoodsShipment.Rows[e.RowIndex].Cells["dgrcQntConfirmed"].Value / nInbox;
+						dgvOutputGoodsShipment.Rows[e.RowIndex].Cells["dgrcBoxConfirmed"].Value = (decimal)droRow["ForBoxConfirmed"];
+					}
+					if (dgvOutputGoodsShipment.Columns[e.ColumnIndex].Name == "dgrcBoxConfirmed")
+					{
+						// меняем коробки
+						droRow["ForBoxConfirmed"] = (decimal)dgvOutputGoodsShipment.Rows[e.RowIndex].Cells["dgrcBoxConfirmed"].Value;
+						if ((bool)dgvOutputGoodsShipment.Rows[e.RowIndex].Cells["dgrcWeighting"].Value)
+							droRow["ForQntConfirmed"] = (decimal)dgvOutputGoodsShipment.Rows[e.RowIndex].Cells["dgrcBoxConfirmed"].Value * nInbox;
+						else
+							droRow["ForQntConfirmed"] = (decimal.Ceiling)((decimal)dgvOutputGoodsShipment.Rows[e.RowIndex].Cells["dgrcBoxConfirmed"].Value * nInbox);
+							dgvOutputGoodsShipment.Rows[e.RowIndex].Cells["dgrcQntConfirmed"].Value = (decimal)droRow["ForQntConfirmed"];
+					}
+					dgvOutputGoodsShipment.Refresh();
+				}
+			}
+		}
+
+		private void dgvOutputGoodsShipment_CellValidated(object sender, DataGridViewCellEventArgs e)
+		{
+			RFMCursorWait.LockWindowUpdate(FindForm().Handle);
+
+			DataGridViewRow r = dgvOutputGoodsShipment.Rows[e.RowIndex];
+			if (dgvOutputGoodsShipment.Columns[e.ColumnIndex].Name == "dgrcQntConfirmed" && (
+					r.Cells["dgrcQntConfirmed"].Value == DBNull.Value ||
+					((decimal)r.Cells["dgrcQntConfirmed"].Value > (decimal)r.Cells["dgrcQntWished"].Value)))
+			{
+				if (r.Cells["dgrcQntConfirmed"].Value == DBNull.Value)
+				{
+					r.Cells["dgrcQntConfirmed"].Value = 0;
+				}
+				else
+				{
+					RFMMessage.MessageBoxError("Введено число больше допустимого!");
+					r.Cells["dgrcQntConfirmed"].Value = (decimal)r.Cells["dgrcQntWished"].Value;
+				}
+			}
+
+			if (dgvOutputGoodsShipment.Columns[e.ColumnIndex].Name == "dgrcBoxConfirmed" && (
+					r.Cells["dgrcBoxConfirmed"].Value == DBNull.Value ||
+					((decimal)r.Cells["dgrcBoxConfirmed"].Value > (decimal)r.Cells["dgrcBoxWished"].Value)))
+			{
+				if (r.Cells["dgrcBoxConfirmed"].Value == DBNull.Value)
+				{
+					r.Cells["dgrcBoxConfirmed"].Value = 0;
+				}
+				else
+				{
+					RFMMessage.MessageBoxError("Введено число больше допустимого!");
+					r.Cells["dgrcBoxConfirmed"].Value = (decimal)r.Cells["dgrcBoxWished"].Value;
+				}
+			}
+			dgvOutputGoodsShipment.Refresh();
+
+			RFMCursorWait.LockWindowUpdate(IntPtr.Zero);
+		}
+
+		private void dgvOutputGoodsShipment_EditingControlShowing(object sender, DataGridViewEditingControlShowingEventArgs e)
+		{
+			e.Control.KeyDown += delegate(object pressSender, KeyEventArgs e_keypress)
+			{
+				if ((e_keypress.KeyCode < Keys.D0) || (e_keypress.KeyCode > Keys.D9))
+				{
+					// не цифры
+					if (!(e_keypress.KeyCode == Keys.Oemcomma ||
+						e_keypress.KeyCode == Keys.Shift ||
+						e_keypress.KeyCode == Keys.Left ||
+						e_keypress.KeyCode == Keys.Right ||
+						e_keypress.KeyCode == Keys.Tab ||
+						e_keypress.KeyCode == Keys.Back ||
+						e_keypress.KeyCode == Keys.Delete ||
+						e_keypress.KeyCode == Keys.End ||
+						e_keypress.KeyCode == Keys.Home ||
+						e_keypress.KeyCode == Keys.Decimal ||
+						((e_keypress.KeyCode >= Keys.NumPad0) && (e_keypress.KeyCode <= Keys.NumPad9)) ) )
+					{
+						e_keypress.SuppressKeyPress = true;
+					}
+				}
+			};
+		}
+
+		#endregion
+
+		private void btnExit_Click(object sender, EventArgs e)
+		{
+			Dispose();
+		}
+
+		private void btnHelp_Click(object sender, EventArgs e)
+		{
+			RFMHelpUtilities.HelpShow(this, hpHelp);
+		}
+
+		private void btnCheckAll_Click(object sender, EventArgs e)
+		{
+			CheckAll(true);
+		}
+
+		private void btnUnCheckAll_Click(object sender, EventArgs e)
+		{
+			CheckAll(false);
+		}
+
+		private void CheckAll(bool isChecked)
+		{
+			if (dgvOutputGoodsShipment.Rows.Count == 0)
+				return;
+
+			RFMCursorWait.LockWindowUpdate(FindForm().Handle);
+			for (int i = 0; i < dgvOutputGoodsShipment.RowCount; i++)
+			{
+				dgvOutputGoodsShipment.Rows[i].Cells["dgrcCheck"].Value = isChecked;
+				DataRow r = ((DataRowView)dgvOutputGoodsShipment.Rows[i].DataBoundItem).Row;
+				r["Checked"] = isChecked;
+				
+			}
+			dgvOutputGoodsShipment.Refresh();
+
+			RFMCursorWait.LockWindowUpdate(IntPtr.Zero);
+		}
+
+		private void btnSave_Click(object sender, EventArgs e)
+		{
+			if (cboStoresZones.SelectedIndex < 0 || cboStoresZones.SelectedValue == null)
+			{
+				RFMMessage.MessageBoxError("Не указана зона пикинга...");
+				return;
+			}
+
+			if (cboHeavers.SelectedIndex < 0 || cboHeavers.SelectedValue == null)
+			{
+				RFMMessage.MessageBoxError("Не указан грузчик...");
+				return;
+			}
+
+			bool lChecked = false;
+			foreach (DataRow r in tTable.Rows)
+			{
+				if ((bool)r["Checked"] && !(bool)r["IsConfirmed"])
+					lChecked = true;
+			}
+			if (!lChecked)
+			{
+				RFMMessage.MessageBoxError("Не отмечено ни одного перемещения...");
+				return;
+			}
+
+			if (RFMMessage.MessageBoxYesNo("Подтвердить перемещения коробок/штук?") == DialogResult.Yes)
+			{
+				Refresh();
+				WaitOn(this);
+				oOutput.ClearError();
+				bool bResult = oOutput.ConfirmTraffics(ID, false, chkMinusAllowed.Checked, (int)cboHeavers.SelectedValue, tTable);
+				WaitOff(this);
+				if (bResult && oOutput.ErrorNumber == 0)
+				{
+					RFMMessage.MessageBoxInfo("Подтверждены перемещения коробок/штук.");
+					Dispose();
+					/*
+					if (ForLoad(true) == 0)
+					{
+						DialogResult = DialogResult.Yes;
+						Dispose();
+					}
+					*/ 
+				}
+				else
+				{
+					RFMMessage.MessageBoxError("Ошибка подтверждения перемещения коробок/штук...");
+				}
+			}
+		}
+	}
+}

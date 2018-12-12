@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<V8Data>
+	<outputstypes>
+		<erpcode>**001</erpcode>
+		<name>ШОК-доставка</name>
+		<erpgoodstate/>
+		<erpowner>**001</erpowner>
+		<actual>true</actual>
+	</outputstypes>
+	<outputstypes>
+		<erpcode>**002</erpcode>
+		<name>ШОК-самовывоз</name>
+		<erpgoodstate/>
+		<erpowner>**001</erpowner>
+		<actual>true</actual>
+	</outputstypes>
+	<outputstypes>
+		<erpcode>**003</erpcode>
+		<name>Хранение</name>
+		<erpgoodstate/>
+		<erpowner>**001</erpowner>
+		<actual>true</actual>
+	</outputstypes>
+	<outputstypes>
+		<erpcode>**004</erpcode>
+		<name>На производство</name>
+		<erpgoodstate/>
+		<erpowner>**001</erpowner>
+		<actual>true</actual>
+	</outputstypes>
+</V8Data>

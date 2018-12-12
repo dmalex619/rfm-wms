@@ -1,0 +1,48 @@
+﻿<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Inputs">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ID" type="xs:int" minOccurs="0" />
+                <xs:element name="ERPDateInput" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="ERPInputType" type="xs:string" minOccurs="0" />
+                <xs:element name="ERPPartner" type="xs:string" minOccurs="0" />
+                <xs:element name="ERPOwner" type="xs:string" minOccurs="0" />
+                <xs:element name="DateStart" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="DateConfirm" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="ERPCode" type="xs:string" minOccurs="0" />
+                <xs:element name="ERPBarCode" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="InputsGoods">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ID" type="xs:int" minOccurs="0" />
+                <xs:element name="InputID" type="xs:int" minOccurs="0" />
+                <xs:element name="ERPGood" type="xs:string" minOccurs="0" />
+                <xs:element name="ERPInBox" type="xs:decimal" minOccurs="0" />
+                <xs:element name="QntWished" type="xs:decimal" minOccurs="0" />
+                <xs:element name="QntConfirmed" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ERPGoodState" type="xs:string" minOccurs="0" />
+                <xs:element name="DateValid" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="ERPCode" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Constraint1">
+        <xs:selector xpath=".//Inputs" />
+        <xs:field xpath="ID" />
+      </xs:unique>
+      <xs:keyref name="Relation1" refer="Constraint1">
+        <xs:selector xpath=".//InputsGoods" />
+        <xs:field xpath="InputID" />
+      </xs:keyref>
+    </xs:element>
+  </xs:schema>
+</NewDataSet>

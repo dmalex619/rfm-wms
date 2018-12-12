@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<V8Data>
+	<partners>
+		<erpcode>000000306</erpcode>
+		<name>Агрохолдинг </name>
+		<owner>false</owner>
+		<separatepicking>false</separatepicking>
+		<actual>true</actual>
+	</partners>
+	<partners>
+		<erpcode>000000276</erpcode>
+		<name>Агрохолдинг Корочанский ООО</name>
+		<owner>false</owner>
+		<separatepicking>false</separatepicking>
+		<actual>true</actual>
+	</partners>
+	<partners>
+		<erpcode>**001</erpcode>
+		<name>ШОК</name>
+		<owner>true</owner>
+		<separatepicking>false</separatepicking>
+		<actual>true</actual>
+	</partners>
+</V8Data>

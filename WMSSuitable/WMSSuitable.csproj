@@ -1,0 +1,1325 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{76856539-FC36-4ED9-ADC8-A27FABCA2504}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WMSSuitable</RootNamespace>
+    <AssemblyName>WMSSuitable</AssemblyName>
+    <StartupObject>WMSSuitable.StartProgram</StartupObject>
+    <ManifestCertificateThumbprint>65B6E7C809FF0D1F50DB902B31E0C6D4B05518AC</ManifestCertificateThumbprint>
+    <ManifestKeyFile>WMSSuitable_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>false</GenerateManifests>
+    <SignManifests>false</SignManifests>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetZone>LocalIntranet</TargetZone>
+    <ApplicationIcon>WMS.ico</ApplicationIcon>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <PublishUrl>z:\4\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ActiveReports.HtmlExport, Version=5.2.0.397, Culture=neutral, PublicKeyToken=cc4967777c49a3ff">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ActiveReports.PdfExport, Version=5.2.0.397, Culture=neutral, PublicKeyToken=cc4967777c49a3ff">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ActiveReports.RtfExport, Version=5.2.0.397, Culture=neutral, PublicKeyToken=cc4967777c49a3ff">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ActiveReports.TextExport, Version=5.2.0.397, Culture=neutral, PublicKeyToken=cc4967777c49a3ff">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ActiveReports.TiffExport, Version=5.2.0.397, Culture=neutral, PublicKeyToken=cc4967777c49a3ff">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ActiveReports.Viewer3, Version=5.2.0.397, Culture=neutral, PublicKeyToken=cc4967777c49a3ff">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ActiveReports.XlsExport, Version=5.2.0.397, Culture=neutral, PublicKeyToken=cc4967777c49a3ff">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ActiveReports3, Version=5.2.0.397, Culture=neutral, PublicKeyToken=cc4967777c49a3ff">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EnvDTE, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.VisualStudio.VSHelp80, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\WINDOWS\assembly\GAC_MSIL\System.Web.Services\2.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="WMSSuitable\ActiveReports\repInputBillPickingAddress.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\ActiveReports\repInputBillPickingAddress.Designer.cs">
+      <DependentUpon>repInputBillPickingAddress.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\ActiveReports\repInventoryBillContents.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\ActiveReports\repInventoryBillContents.designer.cs">
+      <DependentUpon>repInventoryBillContents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\ActiveReports\repOutputPickList.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\ActiveReports\repOutputPickList.designer.cs">
+      <DependentUpon>repOutputPickList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\frmCCSPrepareInventoryAct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\frmCCSPrepareInventoryAct.designer.cs">
+      <DependentUpon>frmCCSPrepareInventoryAct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\frmCellsContentsSnapshots.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\frmCellsContentsSnapshots.designer.cs">
+      <DependentUpon>frmCellsContentsSnapshots.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\frmCellsGeometryEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\frmCellsGeometryEdit.designer.cs">
+      <DependentUpon>frmCellsGeometryEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\frmCellsMassMedicationNotFrames.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\frmCellsMassMedicationNotFrames.designer.cs">
+      <DependentUpon>frmCellsMassMedicationNotFrames.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\frmCellsNoteEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\frmCellsNoteEdit.designer.cs">
+      <DependentUpon>frmCellsNoteEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\frmCellsReorder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\frmCellsReorder.Designer.cs">
+      <DependentUpon>frmCellsReorder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\frmInputsUnloaders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\frmInputsUnloaders.designer.cs">
+      <DependentUpon>frmInputsUnloaders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\frmInventoriesTotalReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\frmInventoriesTotalReport.designer.cs">
+      <DependentUpon>frmInventoriesTotalReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\frmOutputsFramesSelect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\frmOutputsFramesSelect.designer.cs">
+      <DependentUpon>frmOutputsFramesSelect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\frmOutputsLoaders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\frmOutputsLoaders.designer.cs">
+      <DependentUpon>frmOutputsLoaders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\frmPackingsNotFixed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\frmPackingsNotFixed.designer.cs">
+      <DependentUpon>frmPackingsNotFixed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\frmCellsFixedChanges.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\frmCellsFixedChanges.designer.cs">
+      <DependentUpon>frmCellsFixedChanges.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\ActiveReports\repForSalary.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\ActiveReports\repForSalary.designer.cs">
+      <DependentUpon>repForSalary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\ActiveReports\repInventoryBillFull.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\ActiveReports\repInventoryBillFull.designer.cs">
+      <DependentUpon>repInventoryBillFull.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\ActiveReports\repMovingBill.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\ActiveReports\repMovingBill.designer.cs">
+      <DependentUpon>repMovingBill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\ActiveReports\repTrafficFrameBillForOutput.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\ActiveReports\repTrafficFrameBillForOutput.designer.cs">
+      <DependentUpon>repTrafficFrameBillForOutput.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\frmInputsBoxesEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\frmInputsBoxesEdit.designer.cs">
+      <DependentUpon>frmInputsBoxesEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\ActiveReports\repInventoryEmpty.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\ActiveReports\repInventoryEmpty.designer.cs">
+      <DependentUpon>repInventoryEmpty.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\ActiveReports\repOutputControlList.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\ActiveReports\repOutputControlList.designer.cs">
+      <DependentUpon>repOutputControlList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\frmMovings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\frmMovings.designer.cs">
+      <DependentUpon>frmMovings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\frmMovingsConfirm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\frmMovingsConfirm.designer.cs">
+      <DependentUpon>frmMovingsConfirm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\frmMovingsEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\frmMovingsEdit.designer.cs">
+      <DependentUpon>frmMovingsEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\frmReportBadGoods.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\frmReportBadGoods.designer.cs">
+      <DependentUpon>frmReportBadGoods.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\frmReportForSalary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\frmReportForSalary.designer.cs">
+      <DependentUpon>frmReportForSalary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\frmReportOutputsQntDifferences.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\frmReportOutputsQntDifferences.designer.cs">
+      <DependentUpon>frmReportOutputsQntDifferences.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\frmReportPickFreeRill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\frmReportPickFreeRill.designer.cs">
+      <DependentUpon>frmReportPickFreeRill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\frmReportShiftsProductivity.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\frmReportShiftsProductivity.designer.cs">
+      <DependentUpon>frmReportShiftsProductivity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\frmSalaryExtraWorks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\frmSalaryExtraWorks.designer.cs">
+      <DependentUpon>frmSalaryExtraWorks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\frmSalaryExtraWorksEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\frmSalaryExtraWorksEdit.designer.cs">
+      <DependentUpon>frmSalaryExtraWorksEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\frmSalaryTariffs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\frmSalaryTariffs.designer.cs">
+      <DependentUpon>frmSalaryTariffs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\frmSalaryTariffsEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\frmSalaryTariffsEdit.designer.cs">
+      <DependentUpon>frmSalaryTariffsEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\frmShifts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\frmShifts.designer.cs">
+      <DependentUpon>frmShifts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\frmShiftsAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\frmShiftsAdd.designer.cs">
+      <DependentUpon>frmShiftsAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\frmTrafficsFramesForPickingCreate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\frmTrafficsFramesForPickingCreate.designer.cs">
+      <DependentUpon>frmTrafficsFramesForPickingCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\frmReportInputsDateValid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\frmReportInputsDateValid.designer.cs">
+      <DependentUpon>frmReportInputsDateValid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\frmAuditActs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\frmAuditActs.designer.cs">
+      <DependentUpon>frmAuditActs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSAlterMethods.cs" />
+    <Compile Include="WMSSuitable\ActiveReports\repInventoryBillBlank.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\ActiveReports\repInventoryBillBlank.designer.cs">
+      <DependentUpon>repInventoryBillBlank.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\ActiveReports\repOutputCompleteList.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\ActiveReports\repOutputCompleteList.designer.cs">
+      <DependentUpon>repOutputCompleteList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\ActiveReports\repOldCellsContents.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\ActiveReports\repOldCellsContents.Designer.cs">
+      <DependentUpon>repOldCellsContents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\frmInventories.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\frmInventories.designer.cs">
+      <DependentUpon>frmInventories.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\frmInventoriesAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\frmInventoriesAdd.designer.cs">
+      <DependentUpon>frmInventoriesAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="StartProgram.cs" />
+    <Compile Include="WMSSuitable\ActiveReports\repCellLabelA4.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\ActiveReports\repCellLabelA4.designer.cs">
+      <DependentUpon>repCellLabelA4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\ActiveReports\repPackings.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\ActiveReports\repPackings.designer.cs">
+      <DependentUpon>repPackings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\ActiveReports\repUsersBadges.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\ActiveReports\repUsersBadges.Designer.cs">
+      <DependentUpon>repUsersBadges.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\ActiveReports\repFrameLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\ActiveReports\repFrameLabel.designer.cs">
+      <DependentUpon>repFrameLabel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\ActiveReports\repInputBillAct.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\ActiveReports\repInputBillAct.designer.cs">
+      <DependentUpon>repInputBillAct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\ActiveReports\repInputBillGoodState.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\ActiveReports\repInputBillGoodState.Designer.cs">
+      <DependentUpon>repInputBillGoodState.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\ActiveReports\repCellsFixedErrors.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\ActiveReports\repCellsFixedErrors.designer.cs">
+      <DependentUpon>repCellsFixedErrors.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\ActiveReports\repInputBillBarCode.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\ActiveReports\repInputBillBarCode.Designer.cs">
+      <DependentUpon>repInputBillBarCode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\ActiveReports\repInputBill.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\ActiveReports\repInputBill.Designer.cs">
+      <DependentUpon>repInputBill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\ActiveReports\repCellLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\ActiveReports\repCellLabel.Designer.cs">
+      <DependentUpon>repCellLabel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\ActiveReports\repInputBillGoodStateArrange.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\ActiveReports\repInputBillGoodStateArrange.designer.cs">
+      <DependentUpon>repInputBillGoodStateArrange.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\ActiveReports\repInputBillPallets.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\ActiveReports\repInputBillPallets.designer.cs">
+      <DependentUpon>repInputBillPallets.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\ActiveReports\repOutputBill.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\ActiveReports\repOutputBill.designer.cs">
+      <DependentUpon>repOutputBill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\ActiveReports\repOutputBillForConfirm.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\ActiveReports\repOutputBillForConfirm.designer.cs">
+      <DependentUpon>repOutputBillForConfirm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\ActiveReports\repReportsBarCode.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\ActiveReports\repReportsBarCode.designer.cs">
+      <DependentUpon>repReportsBarCode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\ActiveReports\repTrafficFrameBill.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\ActiveReports\repTrafficFrameBill.designer.cs">
+      <DependentUpon>repTrafficFrameBill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\ActiveReports\repTrafficGoodBill.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\ActiveReports\repTrafficGoodBill.designer.cs">
+      <DependentUpon>repTrafficGoodBill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\frmBarCodeLabelPrint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\frmBarCodeLabelPrint.designer.cs">
+      <DependentUpon>frmBarCodeLabelPrint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\frmCellsAddSpecial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\frmCellsAddSpecial.designer.cs">
+      <DependentUpon>frmCellsAddSpecial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\frmCellsBuffer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\frmCellsBuffer.designer.cs">
+      <DependentUpon>frmCellsBuffer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\frmCellsDelete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\frmCellsDelete.designer.cs">
+      <DependentUpon>frmCellsDelete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\frmCellsMedicationFrames.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\frmCellsMedicationFrames.designer.cs">
+      <DependentUpon>frmCellsMedicationFrames.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\frmCellsMedicationNotFrames.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\frmCellsMedicationNotFrames.designer.cs">
+      <DependentUpon>frmCellsMedicationNotFrames.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\frmCellsNewFrameCollect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\frmCellsNewFrameCollect.designer.cs">
+      <DependentUpon>frmCellsNewFrameCollect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\frmFramesEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\frmFramesEdit.designer.cs">
+      <DependentUpon>frmFramesEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\frmFramesMedication.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\frmFramesMedication.designer.cs">
+      <DependentUpon>frmFramesMedication.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\frmOddments.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\frmOddments.designer.cs">
+      <DependentUpon>frmOddments.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\frmOutputs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\frmOutputs.designer.cs">
+      <DependentUpon>frmOutputs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\frmOutputsConfirm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\frmOutputsConfirm.designer.cs">
+      <DependentUpon>frmOutputsConfirm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\frmOutputsFramesConfirm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\frmOutputsFramesConfirm.designer.cs">
+      <DependentUpon>frmOutputsFramesConfirm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\frmOutputsGoodsConfirm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\frmOutputsGoodsConfirm.designer.cs">
+      <DependentUpon>frmOutputsGoodsConfirm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\frmReportCellsFramesHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\frmReportCellsFramesHistory.designer.cs">
+      <DependentUpon>frmReportCellsFramesHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\frmReportOddmentsBalance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\frmReportOddmentsBalance.designer.cs">
+      <DependentUpon>frmReportOddmentsBalance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\frmReportPackingsTurnover.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\frmReportPackingsTurnover.designer.cs">
+      <DependentUpon>frmReportPackingsTurnover.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\frmReportsBarCode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\frmReportsBarCode.designer.cs">
+      <DependentUpon>frmReportsBarCode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\frmReportTraffics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\frmReportTraffics.designer.cs">
+      <DependentUpon>frmReportTraffics.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\frmSelectOneCell.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\frmSelectOneCell.designer.cs">
+      <DependentUpon>frmSelectOneCell.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\frmSysEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\frmSysEdit.designer.cs">
+      <DependentUpon>frmSysEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\frmSysLook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\frmSysLook.designer.cs">
+      <DependentUpon>frmSysLook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\frmTrafficsFramesManual.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\frmTrafficsFramesManual.designer.cs">
+      <DependentUpon>frmTrafficsFramesManual.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\frmTrafficsFramesEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\frmTrafficsFramesEdit.designer.cs">
+      <DependentUpon>frmTrafficsFramesEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\frmTrafficsGoods.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\frmTrafficsGoods.designer.cs">
+      <DependentUpon>frmTrafficsGoods.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\frmTrafficsGoodsEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\frmTrafficsGoodsEdit.designer.cs">
+      <DependentUpon>frmTrafficsGoodsEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\frmTrafficsGoodsManual.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\frmTrafficsGoodsManual.designer.cs">
+      <DependentUpon>frmTrafficsGoodsManual.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\frmUsers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\frmUsers.designer.cs">
+      <DependentUpon>frmUsers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\frmUsersEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\frmUsersEdit.designer.cs">
+      <DependentUpon>frmUsersEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\frmCells.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\frmCells.designer.cs">
+      <DependentUpon>frmCells.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\frmCellsAddRange.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\frmCellsAddRange.designer.cs">
+      <DependentUpon>frmCellsAddRange.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\frmCellsAddressEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\frmCellsAddressEdit.designer.cs">
+      <DependentUpon>frmCellsAddressEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\frmCellsFixedEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\frmCellsFixedEdit.designer.cs">
+      <DependentUpon>frmCellsFixedEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\frmFrames.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\frmFrames.designer.cs">
+      <DependentUpon>frmFrames.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\frmInputs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\frmInputs.designer.cs">
+      <DependentUpon>frmInputs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\frmInputsEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\frmInputsEdit.designer.cs">
+      <DependentUpon>frmInputsEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\frmMain.designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\frmSelectOnePacking.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\frmSelectOnePacking.designer.cs">
+      <DependentUpon>frmSelectOnePacking.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMSSuitable\frmTrafficsFrames.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WMSSuitable\frmTrafficsFrames.designer.cs">
+      <DependentUpon>frmTrafficsFrames.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="WMSSuitable\ActiveReports\repInputBillPickingAddress.resx">
+      <DependentUpon>repInputBillPickingAddress.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\ActiveReports\repInventoryBillContents.resx">
+      <DependentUpon>repInventoryBillContents.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\ActiveReports\repOutputPickList.resx">
+      <DependentUpon>repOutputPickList.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\frmCCSPrepareInventoryAct.resx">
+      <DependentUpon>frmCCSPrepareInventoryAct.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\frmCellsContentsSnapshots.resx">
+      <DependentUpon>frmCellsContentsSnapshots.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\frmCellsGeometryEdit.resx">
+      <DependentUpon>frmCellsGeometryEdit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\frmCellsMassMedicationNotFrames.resx">
+      <DependentUpon>frmCellsMassMedicationNotFrames.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\frmCellsNoteEdit.resx">
+      <DependentUpon>frmCellsNoteEdit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\frmCellsReorder.resx">
+      <DependentUpon>frmCellsReorder.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\frmInputsUnloaders.resx">
+      <DependentUpon>frmInputsUnloaders.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\frmInventoriesTotalReport.resx">
+      <DependentUpon>frmInventoriesTotalReport.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\frmOutputsFramesSelect.resx">
+      <DependentUpon>frmOutputsFramesSelect.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\frmOutputsLoaders.resx">
+      <DependentUpon>frmOutputsLoaders.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\frmPackingsNotFixed.resx">
+      <DependentUpon>frmPackingsNotFixed.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\frmCellsFixedChanges.resx">
+      <DependentUpon>frmCellsFixedChanges.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\ActiveReports\repForSalary.resx">
+      <DependentUpon>repForSalary.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\ActiveReports\repInventoryBillFull.resx">
+      <DependentUpon>repInventoryBillFull.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\ActiveReports\repMovingBill.resx">
+      <DependentUpon>repMovingBill.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\ActiveReports\repTrafficFrameBillForOutput.resx">
+      <DependentUpon>repTrafficFrameBillForOutput.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\frmInputsBoxesEdit.resx">
+      <DependentUpon>frmInputsBoxesEdit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\ActiveReports\repInventoryEmpty.resx">
+      <DependentUpon>repInventoryEmpty.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\ActiveReports\repOutputControlList.resx">
+      <DependentUpon>repOutputControlList.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\frmMovings.resx">
+      <DependentUpon>frmMovings.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\frmMovingsConfirm.resx">
+      <DependentUpon>frmMovingsConfirm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\frmMovingsEdit.resx">
+      <DependentUpon>frmMovingsEdit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\frmReportBadGoods.resx">
+      <DependentUpon>frmReportBadGoods.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\frmReportForSalary.resx">
+      <DependentUpon>frmReportForSalary.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\frmReportOutputsQntDifferences.resx">
+      <DependentUpon>frmReportOutputsQntDifferences.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\frmReportPickFreeRill.resx">
+      <DependentUpon>frmReportPickFreeRill.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\frmReportShiftsProductivity.resx">
+      <DependentUpon>frmReportShiftsProductivity.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\frmSalaryExtraWorks.resx">
+      <DependentUpon>frmSalaryExtraWorks.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\frmSalaryExtraWorksEdit.resx">
+      <DependentUpon>frmSalaryExtraWorksEdit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\frmSalaryTariffs.resx">
+      <DependentUpon>frmSalaryTariffs.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\frmSalaryTariffsEdit.resx">
+      <DependentUpon>frmSalaryTariffsEdit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\frmShifts.resx">
+      <DependentUpon>frmShifts.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\frmShiftsAdd.resx">
+      <DependentUpon>frmShiftsAdd.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\frmTrafficsFramesForPickingCreate.resx">
+      <DependentUpon>frmTrafficsFramesForPickingCreate.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\frmReportInputsDateValid.resx">
+      <DependentUpon>frmReportInputsDateValid.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\frmAuditActs.resx">
+      <DependentUpon>frmAuditActs.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\ActiveReports\repInventoryBillBlank.resx">
+      <DependentUpon>repInventoryBillBlank.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\ActiveReports\repOutputCompleteList.resx">
+      <DependentUpon>repOutputCompleteList.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\ActiveReports\repOldCellsContents.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>repOldCellsContents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\frmInventories.resx">
+      <DependentUpon>frmInventories.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\frmInventoriesAdd.resx">
+      <DependentUpon>frmInventoriesAdd.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\ActiveReports\repCellLabelA4.resx">
+      <DependentUpon>repCellLabelA4.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\ActiveReports\repPackings.resx">
+      <DependentUpon>repPackings.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\ActiveReports\repUsersBadges.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>repUsersBadges.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\ActiveReports\repCellsFixedErrors.resx">
+      <DependentUpon>repCellsFixedErrors.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\ActiveReports\repFrameLabel.resx">
+      <DependentUpon>repFrameLabel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\ActiveReports\repInputBillAct.resx">
+      <DependentUpon>repInputBillAct.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\ActiveReports\repInputBillBarCode.resx">
+      <DependentUpon>repInputBillBarCode.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\ActiveReports\repInputBill.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>repInputBill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\ActiveReports\repCellLabel.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>repCellLabel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\ActiveReports\repInputBillGoodState.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>repInputBillGoodState.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\ActiveReports\repInputBillGoodStateArrange.resx">
+      <DependentUpon>repInputBillGoodStateArrange.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\ActiveReports\repInputBillPallets.resx">
+      <DependentUpon>repInputBillPallets.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\ActiveReports\repOutputBill.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>repOutputBill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\ActiveReports\repOutputBillForConfirm.resx">
+      <DependentUpon>repOutputBillForConfirm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\ActiveReports\repReportsBarCode.resx">
+      <DependentUpon>repReportsBarCode.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\ActiveReports\repTrafficFrameBill.resx">
+      <DependentUpon>repTrafficFrameBill.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\ActiveReports\repTrafficGoodBill.resx">
+      <DependentUpon>repTrafficGoodBill.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\frmBarCodeLabelPrint.resx">
+      <DependentUpon>frmBarCodeLabelPrint.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\frmCellsAddSpecial.resx">
+      <DependentUpon>frmCellsAddSpecial.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\frmCellsBuffer.resx">
+      <DependentUpon>frmCellsBuffer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\frmCellsDelete.resx">
+      <DependentUpon>frmCellsDelete.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\frmCellsMedicationFrames.resx">
+      <DependentUpon>frmCellsMedicationFrames.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\frmCellsMedicationNotFrames.resx">
+      <DependentUpon>frmCellsMedicationNotFrames.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\frmCellsNewFrameCollect.resx">
+      <DependentUpon>frmCellsNewFrameCollect.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\frmFramesEdit.resx">
+      <DependentUpon>frmFramesEdit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\frmFramesMedication.resx">
+      <DependentUpon>frmFramesMedication.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\frmOddments.resx">
+      <DependentUpon>frmOddments.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\frmOutputs.resx">
+      <DependentUpon>frmOutputs.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\frmOutputsConfirm.resx">
+      <DependentUpon>frmOutputsConfirm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\frmOutputsFramesConfirm.resx">
+      <DependentUpon>frmOutputsFramesConfirm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\frmOutputsGoodsConfirm.resx">
+      <DependentUpon>frmOutputsGoodsConfirm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\frmReportCellsFramesHistory.resx">
+      <DependentUpon>frmReportCellsFramesHistory.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\frmReportOddmentsBalance.resx">
+      <DependentUpon>frmReportOddmentsBalance.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\frmReportPackingsTurnover.resx">
+      <DependentUpon>frmReportPackingsTurnover.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\frmReportsBarCode.resx">
+      <DependentUpon>frmReportsBarCode.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\frmReportTraffics.resx">
+      <DependentUpon>frmReportTraffics.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\frmSelectOneCell.resx">
+      <DependentUpon>frmSelectOneCell.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\frmSysEdit.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSysEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\frmSysLook.resx">
+      <DependentUpon>frmSysLook.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\frmTrafficsFramesManual.resx">
+      <DependentUpon>frmTrafficsFramesManual.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\frmTrafficsFramesEdit.resx">
+      <DependentUpon>frmTrafficsFramesEdit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\frmTrafficsGoods.resx">
+      <DependentUpon>frmTrafficsGoods.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\frmTrafficsGoodsEdit.resx">
+      <DependentUpon>frmTrafficsGoodsEdit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\frmTrafficsGoodsManual.resx">
+      <DependentUpon>frmTrafficsGoodsManual.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\frmUsers.resx">
+      <DependentUpon>frmUsers.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\frmUsersEdit.resx">
+      <DependentUpon>frmUsersEdit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\frmCells.resx">
+      <DependentUpon>frmCells.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\frmCellsAddRange.resx">
+      <DependentUpon>frmCellsAddRange.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\frmCellsAddressEdit.resx">
+      <DependentUpon>frmCellsAddressEdit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\frmCellsFixedEdit.resx">
+      <DependentUpon>frmCellsFixedEdit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\frmFrames.resx">
+      <DependentUpon>frmFrames.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\frmInputs.resx">
+      <DependentUpon>frmInputs.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\frmInputsEdit.resx">
+      <DependentUpon>frmInputsEdit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\frmSelectOnePacking.resx">
+      <DependentUpon>frmSelectOnePacking.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WMSSuitable\frmTrafficsFrames.resx">
+      <DependentUpon>frmTrafficsFrames.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="WMS.ico" />
+    <Content Include="WMSImages\Add.gif" />
+    <Content Include="WMSImages\BarCode.gif" />
+    <Content Include="WMSImages\Bottom.gif" />
+    <Content Include="WMSImages\Bottom_B.gif" />
+    <Content Include="WMSImages\Bottom_R.gif" />
+    <Content Include="WMSImages\Bottom_T.gif" />
+    <Content Include="WMSImages\Boxes.gif" />
+    <Content Include="WMSImages\Box_full.gif" />
+    <Content Include="WMSImages\Box_open.gif" />
+    <Content Include="WMSImages\Calc.gif" />
+    <Content Include="WMSImages\Calendar.gif" />
+    <Content Include="WMSImages\Car_Red.gif" />
+    <Content Include="WMSImages\Certificate.gif" />
+    <Content Include="WMSImages\Check.gif" />
+    <Content Include="WMSImages\CheckBox_Green.gif" />
+    <Content Include="WMSImages\CheckBox_No.gif" />
+    <Content Include="WMSImages\CheckBox_Red.gif" />
+    <Content Include="WMSImages\CheckGreen.gif" />
+    <Content Include="WMSImages\CheckGreenLight.gif" />
+    <Content Include="WMSImages\CheckGreenOff.gif" />
+    <Content Include="WMSImages\CheckRed.gif" />
+    <Content Include="WMSImages\Copy.gif" />
+    <Content Include="WMSImages\Delete.gif" />
+    <Content Include="WMSImages\DeleteAll.gif" />
+    <Content Include="WMSImages\Detail.gif" />
+    <Content Include="WMSImages\DotGreen.gif" />
+    <Content Include="WMSImages\DotGreenHalf.gif" />
+    <Content Include="WMSImages\DotRed.gif" />
+    <Content Include="WMSImages\DotYellow.gif" />
+    <Content Include="WMSImages\Down.gif" />
+    <Content Include="WMSImages\Edit.gif" />
+    <Content Include="WMSImages\Edit_coin.gif" />
+    <Content Include="WMSImages\Empty.gif" />
+    <Content Include="WMSImages\Equal.gif" />
+    <Content Include="WMSImages\Excel.gif" />
+    <None Include="WMSImages\Exclamation.gif" />
+    <Content Include="WMSImages\Exit.gif" />
+    <Content Include="WMSImages\Filter.gif" />
+    <Content Include="WMSImages\Find.gif" />
+    <Content Include="WMSImages\Flag.gif" />
+    <Content Include="WMSImages\Folder.gif" />
+    <Content Include="WMSImages\FolderClosed.gif" />
+    <Content Include="WMSImages\FolderIn.gif" />
+    <Content Include="WMSImages\FolderOut.gif" />
+    <Content Include="WMSImages\Folder_Open.gif" />
+    <Content Include="WMSImages\Frame.gif" />
+    <Content Include="WMSImages\Geometry.gif" />
+    <Content Include="WMSImages\Geometry1.gif" />
+    <Content Include="WMSImages\Go.gif" />
+    <Content Include="WMSImages\Go_Blue.gif" />
+    <Content Include="WMSImages\Go_Red.gif" />
+    <Content Include="WMSImages\Graph.gif" />
+    <Content Include="WMSImages\Grid.gif" />
+    <Content Include="WMSImages\Hands.gif" />
+    <Content Include="WMSImages\Help.gif" />
+    <Content Include="WMSImages\HourGlass.gif" />
+    <Content Include="WMSImages\Leaf.gif" />
+    <Content Include="WMSImages\Leaf_G.gif" />
+    <Content Include="WMSImages\Leaf_R.gif" />
+    <Content Include="WMSImages\Leaf_RW.gif" />
+    <Content Include="WMSImages\Leaf_Y.gif" />
+    <Content Include="WMSImages\Locate.gif" />
+    <Content Include="WMSImages\Lock1.gif" />
+    <Content Include="WMSImages\Login.gif" />
+    <None Include="WMSImages\Medication.gif" />
+    <Content Include="WMSImages\Minus.gif" />
+    <Content Include="WMSImages\MinusTree.gif" />
+    <Content Include="WMSImages\Next.gif" />
+    <Content Include="WMSImages\Next_R.gif" />
+    <Content Include="WMSImages\Note.gif" />
+    <Content Include="WMSImages\Paint.gif" />
+    <Content Include="WMSImages\Paste.gif" />
+    <Content Include="WMSImages\Plain_B.GIF" />
+    <Content Include="WMSImages\Plain_BD.GIF" />
+    <Content Include="WMSImages\Plain_G.GIF" />
+    <Content Include="WMSImages\Plain_GD.GIF" />
+    <Content Include="WMSImages\Plain_GS.GIF" />
+    <Content Include="WMSImages\Plain_M.GIF" />
+    <Content Include="WMSImages\Plain_O.GIF" />
+    <Content Include="WMSImages\Plain_R.GIF" />
+    <Content Include="WMSImages\Plain_Y.GIF" />
+    <Content Include="WMSImages\Plus.gif" />
+    <Content Include="WMSImages\PlusTree.gif" />
+    <Content Include="WMSImages\Previous.gif" />
+    <Content Include="WMSImages\Previous_R.gif" />
+    <Content Include="WMSImages\Print.gif" />
+    <Content Include="WMSImages\Printer_iz.gif" />
+    <Content Include="WMSImages\ReDo.gif" />
+    <Content Include="WMSImages\Refresh.gif" />
+    <Content Include="WMSImages\Repair.gif" />
+    <Content Include="WMSImages\ReSize.gif" />
+    <Content Include="WMSImages\Save.gif" />
+    <Content Include="WMSImages\Save_Half.gif" />
+    <Content Include="WMSImages\Service.gif" />
+    <Content Include="WMSImages\Sort.gif" />
+    <Content Include="WMSImages\SortDn.gif" />
+    <Content Include="WMSImages\SortUp.gif" />
+    <Content Include="WMSImages\Star.gif" />
+    <Content Include="WMSImages\Stop.gif" />
+    <Content Include="WMSImages\Stop_L.gif" />
+    <Content Include="WMSImages\Sum.gif" />
+    <Content Include="WMSImages\Top.gif" />
+    <Content Include="WMSImages\Top_R.gif" />
+    <Content Include="WMSImages\Tree.gif" />
+    <Content Include="WMSImages\Tree\dash.gif" />
+    <Content Include="WMSImages\Tree\dashminus.gif" />
+    <Content Include="WMSImages\Tree\dashplus.gif" />
+    <Content Include="WMSImages\Tree\i.gif" />
+    <Content Include="WMSImages\Tree\l.gif" />
+    <Content Include="WMSImages\Tree\lminus.gif" />
+    <Content Include="WMSImages\Tree\lplus.gif" />
+    <Content Include="WMSImages\Tree\MinusTree.gif" />
+    <Content Include="WMSImages\Tree\noexpand.gif" />
+    <Content Include="WMSImages\Tree\PlusTree.gif" />
+    <Content Include="WMSImages\Tree\r.gif" />
+    <Content Include="WMSImages\Tree\rminus.gif" />
+    <Content Include="WMSImages\Tree\rplus.gif" />
+    <Content Include="WMSImages\Tree\t.gif" />
+    <Content Include="WMSImages\Tree\tminus.gif" />
+    <Content Include="WMSImages\Tree\tplus.gif" />
+    <Content Include="WMSImages\Truck.gif" />
+    <Content Include="WMSImages\UnDo.gif" />
+    <Content Include="WMSImages\User1.gif" />
+    <Content Include="WMSImages\User2.gif" />
+    <Content Include="WMSImages\View.gif" />
+    <Content Include="WMSImages\Wizard.gif" />
+    <Content Include="WMSImages\WWW.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="WMSImages\Tree\Thumbs.db" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\RFMBaseClasses\RFMBaseClasses.csproj">
+      <Project>{cc843c2b-b011-45d9-9f63-e0309079cd44}</Project>
+      <Name>RFMBaseClasses</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\RFMExcelLite\RFMExcelLite\RFMExcelLite.csproj">
+      <Project>{2c119dcd-8d6b-4293-abb3-664294a099b6}</Project>
+      <Name>RFMExcelLite</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\RFMPublic\RFMPublic.csproj">
+      <Project>{e2c7ba0f-4463-4c20-a669-62be654c58ce}</Project>
+      <Name>RFMPublic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WMSBizObjects\WMSBizObjects.csproj">
+      <Project>{349F2C34-75A8-4DB8-A33A-4B81D732E944}</Project>
+      <Name>WMSBizObjects %28WMSBizObjects\WMSBizObjects%29</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>Клиентский профиль .NET Framework 3.5 с пакетом обновления 1 %28SP1%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

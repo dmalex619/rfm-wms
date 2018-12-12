@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WMSBizObjects", "WMSBizObjects", "{BF6F8811-C2DC-43FF-8EFB-3C9DD26239A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WMSSuitable", "WMSSuitable", "{BD8A67CC-2729-48C3-B666-25683A7078BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WMSBizObjects", "WMSBizObjects\WMSBizObjects.csproj", "{349F2C34-75A8-4DB8-A33A-4B81D732E944}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E2C7BA0F-4463-4C20-A669-62BE654C58CE} = {E2C7BA0F-4463-4C20-A669-62BE654C58CE}
+		{CC843C2B-B011-45D9-9F63-E0309079CD44} = {CC843C2B-B011-45D9-9F63-E0309079CD44}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WMSSuitable", "WMSSuitable\WMSSuitable.csproj", "{76856539-FC36-4ED9-ADC8-A27FABCA2504}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E2C7BA0F-4463-4C20-A669-62BE654C58CE} = {E2C7BA0F-4463-4C20-A669-62BE654C58CE}
+		{CC843C2B-B011-45D9-9F63-E0309079CD44} = {CC843C2B-B011-45D9-9F63-E0309079CD44}
+		{349F2C34-75A8-4DB8-A33A-4B81D732E944} = {349F2C34-75A8-4DB8-A33A-4B81D732E944}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RFMBaseClasses", "..\RFMBaseClasses\RFMBaseClasses.csproj", "{CC843C2B-B011-45D9-9F63-E0309079CD44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RFMPublic", "..\RFMPublic\RFMPublic.csproj", "{E2C7BA0F-4463-4C20-A669-62BE654C58CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RFMExcelLite", "..\RFMExcelLite\RFMExcelLite\RFMExcelLite.csproj", "{2C119DCD-8D6B-4293-ABB3-664294A099B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{349F2C34-75A8-4DB8-A33A-4B81D732E944}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{349F2C34-75A8-4DB8-A33A-4B81D732E944}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{349F2C34-75A8-4DB8-A33A-4B81D732E944}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{349F2C34-75A8-4DB8-A33A-4B81D732E944}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76856539-FC36-4ED9-ADC8-A27FABCA2504}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76856539-FC36-4ED9-ADC8-A27FABCA2504}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76856539-FC36-4ED9-ADC8-A27FABCA2504}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76856539-FC36-4ED9-ADC8-A27FABCA2504}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC843C2B-B011-45D9-9F63-E0309079CD44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC843C2B-B011-45D9-9F63-E0309079CD44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC843C2B-B011-45D9-9F63-E0309079CD44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC843C2B-B011-45D9-9F63-E0309079CD44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2C7BA0F-4463-4C20-A669-62BE654C58CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2C7BA0F-4463-4C20-A669-62BE654C58CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2C7BA0F-4463-4C20-A669-62BE654C58CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2C7BA0F-4463-4C20-A669-62BE654C58CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C119DCD-8D6B-4293-ABB3-664294A099B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C119DCD-8D6B-4293-ABB3-664294A099B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C119DCD-8D6B-4293-ABB3-664294A099B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C119DCD-8D6B-4293-ABB3-664294A099B6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{349F2C34-75A8-4DB8-A33A-4B81D732E944} = {BF6F8811-C2DC-43FF-8EFB-3C9DD26239A1}
+		{76856539-FC36-4ED9-ADC8-A27FABCA2504} = {BD8A67CC-2729-48C3-B666-25683A7078BF}
+	EndGlobalSection
+EndGlobal

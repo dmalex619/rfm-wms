@@ -1,0 +1,527 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1251">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 11">
+<meta name=Originator content="Microsoft Word 11">
+<link rel=File-List href="std_field_дерево.files/filelist.xml">
+<title>Иерархическое представление данных в виде &quot;дерева&quot;</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>ANNA</o:Author>
+  <o:LastAuthor>ANNA</o:LastAuthor>
+  <o:Revision>5</o:Revision>
+  <o:TotalTime>7</o:TotalTime>
+  <o:Created>2007-07-30T11:43:00Z</o:Created>
+  <o:LastSaved>2007-07-30T11:50:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>731</o:Words>
+  <o:Characters>4170</o:Characters>
+  <o:Company>MCLASS</o:Company>
+  <o:Lines>34</o:Lines>
+  <o:Paragraphs>9</o:Paragraphs>
+  <o:CharactersWithSpaces>4892</o:CharactersWithSpaces>
+  <o:Version>11.5606</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:DrawingGridHorizontalSpacing>2,85 пт</w:DrawingGridHorizontalSpacing>
+  <w:DisplayVerticalDrawingGridEvery>2</w:DisplayVerticalDrawingGridEvery>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:UseWord2002TableStyleRules/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" LatentStyleCount="156">
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:2;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:0 268435456 0 0 -2147483648 0;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;
+	mso-font-charset:204;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:1627421319 -2147483648 8 0 66047 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+h3
+	{mso-style-next:Обычный;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:3;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	font-style:italic;}
+h4
+	{mso-style-next:Обычный;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:4;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	font-weight:normal;
+	font-style:italic;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	tab-stops:center 233.85pt right 467.75pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	tab-stops:center 233.85pt right 467.75pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.MsoList, li.MsoList, div.MsoList
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:14.15pt;
+	margin-bottom:.0001pt;
+	text-indent:-14.15pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.MsoBodyText, li.MsoBodyText, div.MsoBodyText
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.Normal, li.Normal, div.Normal
+	{mso-style-name:Normal;
+	mso-style-parent:"";
+	margin-top:5.0pt;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:0cm;
+	mso-pagination:none;
+	font-size:12.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	layout-grid-mode:line;}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+@page Section1
+	{size:595.3pt 841.9pt;
+	margin:2.0cm 2.0cm 2.0cm 2.0cm;
+	mso-header-margin:34.0pt;
+	mso-footer-margin:34.0pt;
+	mso-even-header:url("std_field_дерево.files/header.htm") eh1;
+	mso-header:url("std_field_дерево.files/header.htm") h1;
+	mso-footer:url("std_field_дерево.files/header.htm") f1;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Обычная таблица";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-ansi-language:#0400;
+	mso-fareast-language:#0400;
+	mso-bidi-language:#0400;}
+</style>
+<![endif]-->
+</head>
+
+<body lang=RU style='tab-interval:35.4pt'>
+
+<div class=Section1>
+
+<p class=MsoList><b><span style='font-family:Tahoma;mso-bidi-font-family:"Times New Roman"'>Иерархическое
+представление данных в виде &quot;дерева&quot;<o:p></o:p></span></b></p>
+
+<p class=Normal style='margin:0cm;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;font-family:Tahoma;mso-bidi-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=Normal style='margin:0cm;margin-bottom:.0001pt;text-align:justify'><span
+class=GramE><span style='font-size:10.0pt;font-family:Tahoma;mso-bidi-font-family:
+"Times New Roman"'>Данные, имеющие иерархическую структуру, могут отображаться
+в виде &quot;дерева&quot; – разветвленной структуры, в которой <b>элементы</b>
+(строки, записи) объединены в <b style='mso-bidi-font-weight:normal'>группы</b><span
+style='mso-bidi-font-weight:bold'> (папки), которые, в свою очередь могут
+входить в другие группы</span>.</span></span><span style='font-size:10.0pt;
+font-family:Tahoma;mso-bidi-font-family:"Times New Roman"'><o:p></o:p></span></p>
+
+<p class=Normal style='margin:0cm;margin-bottom:.0001pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Tahoma;mso-bidi-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=Normal style='margin:0cm;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;font-family:Tahoma;mso-bidi-font-family:"Times New Roman"'>Если
+предполагается выбор нескольких значений, то элементы и группы
+&quot;дерева&quot; снабжены флажками (квадратиками), в которых пользователь
+может ставить пометки (галочки).<o:p></o:p></span></p>
+
+<p class=Normal style='margin:0cm;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;font-family:Tahoma;mso-bidi-font-family:"Times New Roman"'>Если
+предполагается выбор только одного значения, то флажков нет, а выбранным
+считается текущий элемент &quot;дерева&quot;. <o:p></o:p></span></p>
+
+<p class=Normal style='margin:0cm;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;font-family:Tahoma;mso-bidi-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=Normal style='margin:0cm;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;font-family:Tahoma;mso-bidi-font-family:"Times New Roman"'>Данные
+одного уровня при отображении обычно упорядочены <span style='mso-bidi-font-weight:
+bold'>по алфавиту</span>.<o:p></o:p></span></p>
+
+<p class=Normal style='margin:0cm;margin-bottom:.0001pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Tahoma;mso-bidi-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=Normal style='margin:0cm;margin-bottom:.0001pt;text-align:justify'><span
+lang=RU-MO style='font-size:10.0pt;font-family:Tahoma;mso-bidi-font-family:
+"Times New Roman";mso-ansi-language:RU-MO'><o:p>&nbsp;</o:p></span></p>
+
+<p class=Normal style='margin:0cm;margin-bottom:.0001pt;text-align:justify'><i><span
+style='font-size:10.0pt;font-family:Tahoma;mso-bidi-font-family:"Times New Roman"'>1.
+Работа с &quot;деревом&quot; <o:p></o:p></span></i></p>
+
+<p class=Normal style='margin:0cm;margin-bottom:.0001pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Tahoma;mso-bidi-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=Normal style='margin:0cm;margin-bottom:.0001pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Tahoma;mso-bidi-font-family:"Times New Roman"'>Перемещаться
+по &quot;дереву&quot; можно с помощью мыши и полос прокрутки или с помощью
+клавиш управления курсором.<o:p></o:p></span></p>
+
+<p class=Normal style='margin:0cm;margin-bottom:.0001pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Tahoma;mso-bidi-font-family:"Times New Roman"'>Для
+<b style='mso-bidi-font-weight:normal'>выбора активной строки</b> (она <span
+class=GramE>подсвечена</span> синим цветом) достаточно один раз щелкнуть по ней
+левой кнопкой мыши или установить нее цветовое выделение клавишами управления
+курсором.<o:p></o:p></span></p>
+
+<p class=Normal style='margin:0cm;margin-bottom:.0001pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Tahoma;mso-bidi-font-family:"Times New Roman"'>Для
+того<span class=GramE>,</span> чтобы <b style='mso-bidi-font-weight:normal'>раскрыть</b>
+закрытую папку (то есть отобразить группы и элементы, входящие в этой папку)
+или <b style='mso-bidi-font-weight:normal'>закрыть</b> раскрытую папку (то есть
+входящие в нее группы и элементы), следует дважды щелкнуть левой кнопкой мыши
+на строке, обозначающей данную папку, или нажать на этой строке клавишу &lt;<span
+class=SpellE>Enter</span>&gt;. <o:p></o:p></span></p>
+
+<p class=Normal style='margin:0cm;margin-bottom:.0001pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Tahoma;mso-bidi-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=Normal style='margin:0cm;margin-bottom:.0001pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Tahoma;mso-bidi-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=Normal style='margin:0cm;margin-bottom:.0001pt;text-align:justify'><i><span
+style='font-size:10.0pt;font-family:Tahoma;mso-bidi-font-family:"Times New Roman"'>2.
+Отображение актуальных / всех записей в &quot;дереве&quot;<o:p></o:p></span></i></p>
+
+<p class=Normal style='margin:0cm;margin-bottom:.0001pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Tahoma;mso-bidi-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=Normal style='margin:0cm;margin-bottom:.0001pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Tahoma;mso-bidi-font-family:"Times New Roman"'>Обычно
+в &quot;дереве&quot; отображаются только <b>актуальные </b>записи.<o:p></o:p></span></p>
+
+<p class=Normal style='margin:0cm;margin-bottom:.0001pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Tahoma;mso-bidi-font-family:"Times New Roman"'>Если
+нужно найти и пометить в &quot;дереве&quot; запись, не являющуюся актуальной,
+следует сначала отобразить в &quot;дереве&quot; все записи: щелкнуть правой
+кнопкой мыши на территории &quot;дерева&quot; и выбрать в появившемся меню
+пункт &quot;Все записи&quot;. Теперь в &quot;дереве&quot; отображаются наравне
+как актуальные, так и неактуальные записи. <o:p></o:p></span></p>
+
+<p class=Normal style='margin:0cm;margin-bottom:.0001pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Tahoma;mso-bidi-font-family:"Times New Roman"'>Чтобы
+отобразить в &quot;дереве&quot; только актуальные записи, следует щелкнуть
+правой кнопкой мыши на территории &quot;дерева&quot; и выбрать в появившемся
+меню пункт &quot;Актуальные записи&quot;. <o:p></o:p></span></p>
+
+<p class=Normal style='margin:0cm;margin-bottom:.0001pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Tahoma;mso-bidi-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=Normal style='margin:0cm;margin-bottom:.0001pt'><a name="tree_find"><b
+style='mso-bidi-font-weight:normal'><i><span style='font-size:10.0pt;
+font-family:Tahoma;mso-bidi-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></i></b></a></p>
+
+<p class=Normal style='margin:0cm;margin-bottom:.0001pt'><span
+style='mso-bookmark:tree_find'><i><span style='font-size:10.0pt;font-family:
+Tahoma;mso-bidi-font-family:"Times New Roman";mso-bidi-font-weight:bold'>3.
+Поиск записи в &quot;дереве&quot;</span></i></span><i><span style='font-size:
+10.0pt;font-family:Tahoma;mso-bidi-font-family:"Times New Roman";mso-bidi-font-weight:
+bold'> по первым символам<o:p></o:p></span></i></p>
+
+<p class=Normal style='margin:0cm;margin-bottom:.0001pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Tahoma;mso-bidi-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=Normal style='margin:0cm;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;font-family:Tahoma;mso-bidi-font-family:"Times New Roman";
+mso-bidi-font-weight:bold'>Поиск по первым символам удобен, если известно
+точное название искомого элемента и папка, в которой он находится.<o:p></o:p></span></p>
+
+<p class=Normal style='margin:0cm;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;font-family:Tahoma;mso-bidi-font-family:"Times New Roman";
+mso-bidi-font-weight:bold'>Следует открыть нужную папку и набирать на
+клавиатуре первые символы названия – активная строка будет перемещаться по
+элементам с подходящими названиями. <o:p></o:p></span></p>
+
+<p class=Normal style='margin:0cm;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;font-family:Tahoma;mso-bidi-font-family:"Times New Roman";
+mso-bidi-font-weight:bold'><o:p>&nbsp;</o:p></span></p>
+
+<p class=Normal style='margin:0cm;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;font-family:Tahoma;mso-bidi-font-family:"Times New Roman";
+mso-bidi-font-weight:bold'><o:p>&nbsp;</o:p></span></p>
+
+<p class=Normal style='margin:0cm;margin-bottom:.0001pt'><a
+name="tree_copy_move"><i><span style='font-size:10.0pt;font-family:Tahoma;
+mso-bidi-font-family:"Times New Roman";mso-bidi-font-weight:bold'>4. Поиск
+записи в &quot;дереве&quot; по контексту<o:p></o:p></span></i></a></p>
+
+<p class=Normal style='margin:0cm;margin-bottom:.0001pt;text-align:justify'><span
+style='mso-bookmark:tree_copy_move'><span style='font-size:10.0pt;font-family:
+Tahoma;mso-bidi-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></span></p>
+
+<p class=Normal style='margin:0cm;margin-bottom:.0001pt'><span
+style='mso-bookmark:tree_copy_move'><span style='font-size:10.0pt;font-family:
+Tahoma;mso-bidi-font-family:"Times New Roman";mso-bidi-font-weight:bold'>Поиск
+по контексту удобен, если точное название или местонахождения искомого элемента
+неизвестно.<o:p></o:p></span></span></p>
+
+<p class=Normal style='margin:0cm;margin-bottom:.0001pt;text-align:justify'><span
+style='mso-bookmark:tree_copy_move'><span style='font-size:10.0pt;font-family:
+Tahoma;mso-bidi-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></span></p>
+
+<p class=Normal style='margin:0cm;margin-bottom:.0001pt;text-align:justify'><span
+style='mso-bookmark:tree_copy_move'><span style='font-size:10.0pt;font-family:
+Tahoma;mso-bidi-font-family:"Times New Roman"'>Для поиска в &quot;дереве&quot;
+по контексту следует щелкнуть правой кнопкой мыши на территории
+&quot;дерева&quot; и выбрать в появившемся меню пункт &quot;Поиск&quot;. <o:p></o:p></span></span></p>
+
+<p class=Normal style='margin:0cm;margin-bottom:.0001pt;text-align:justify'><span
+style='mso-bookmark:tree_copy_move'><span style='font-size:10.0pt;font-family:
+Tahoma;mso-bidi-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></span></p>
+
+<p class=Normal style='margin:0cm;margin-bottom:.0001pt;text-align:justify'><span
+style='mso-bookmark:tree_copy_move'><span style='font-size:10.0pt;font-family:
+Tahoma;mso-bidi-font-family:"Times New Roman"'>В форме &quot;Поиск&quot;
+следует задать набор символов, который должен входить в название искомого
+элемента.<o:p></o:p></span></span></p>
+
+<p class=Normal style='margin:0cm;margin-bottom:.0001pt;text-align:justify'><span
+style='mso-bookmark:tree_copy_move'><span style='font-size:10.0pt;font-family:
+Tahoma;mso-bidi-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='mso-bookmark:tree_copy_move'><span
+style='font-size:10.0pt;mso-bidi-font-size:12.0pt;font-family:Tahoma;
+mso-bidi-font-family:"Times New Roman"'>Если флажок </span></span><span
+style='mso-bookmark:tree_copy_move'><span style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:Wingdings;mso-ascii-font-family:Tahoma;mso-hansi-font-family:
+Tahoma;mso-char-type:symbol;mso-symbol-font-family:Wingdings'><span
+style='mso-char-type:symbol;mso-symbol-font-family:Wingdings'>&thorn;</span></span></span><span
+style='mso-bookmark:tree_copy_move'><span style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:Tahoma;mso-bidi-font-family:"Times New Roman"'>
+&quot;регистр&quot; установлен, значит, поиск ведется с учетом регистра (большие
+/ маленькие буквы); <o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='mso-bookmark:tree_copy_move'><span
+style='font-size:10.0pt;mso-bidi-font-size:12.0pt;font-family:Tahoma;
+mso-bidi-font-family:"Times New Roman"'>если нет, значит, регистр не имеет
+значения (по умолчанию).<o:p></o:p></span></span></p>
+
+<p class=Normal style='margin:0cm;margin-bottom:.0001pt;text-align:justify'><span
+style='mso-bookmark:tree_copy_move'><span style='font-size:10.0pt;font-family:
+Tahoma;mso-bidi-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='mso-bookmark:tree_copy_move'><span
+style='font-size:10.0pt;mso-bidi-font-size:12.0pt;font-family:Tahoma;
+mso-bidi-font-family:"Times New Roman"'>Если флажок </span></span><span
+style='mso-bookmark:tree_copy_move'><span style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:Wingdings;mso-ascii-font-family:Tahoma;mso-hansi-font-family:
+Tahoma;mso-char-type:symbol;mso-symbol-font-family:Wingdings'><span
+style='mso-char-type:symbol;mso-symbol-font-family:Wingdings'>&thorn;</span></span></span><span
+style='mso-bookmark:tree_copy_move'><span style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:Tahoma;mso-bidi-font-family:"Times New Roman"'>
+&quot;контекст&quot; установлен, значит, система будет искать запись с
+названием, содержащим указанное значение в любом месте, как контекст (по
+умолчанию),<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='mso-bookmark:tree_copy_move'><span
+style='font-size:10.0pt;mso-bidi-font-size:12.0pt;font-family:Tahoma;
+mso-bidi-font-family:"Times New Roman"'>например, по значению &quot;мор&quot;
+будут найдены элементы &quot;Мороженое&quot;, &quot;Смородина&quot;,
+&quot;Заморозка<span class=GramE>&quot;, …; </span><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='mso-bookmark:tree_copy_move'><span
+style='font-size:10.0pt;mso-bidi-font-size:12.0pt;font-family:Tahoma;
+mso-bidi-font-family:"Times New Roman"'>если нет, значит, система будет искать
+запись, где названием полностью совпадает с указанным значением. <o:p></o:p></span></span></p>
+
+<p class=Normal style='margin:0cm;margin-bottom:.0001pt;text-align:justify'><span
+style='mso-bookmark:tree_copy_move'><span style='font-size:10.0pt;font-family:
+Tahoma;mso-bidi-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></span></p>
+
+<p class=Normal style='margin:0cm;margin-bottom:.0001pt;text-align:justify'><span
+style='mso-bookmark:tree_copy_move'><span style='font-size:10.0pt;font-family:
+Tahoma;mso-bidi-font-family:"Times New Roman"'>Для начала поиска следует нажать
+кнопку с изображением бинокля<span class=GramE> &lt;Н</span>айти&gt;.<o:p></o:p></span></span></p>
+
+<p class=Normal style='margin-top:0cm;margin-right:-7.15pt;margin-bottom:0cm;
+margin-left:0cm;margin-bottom:.0001pt;tab-stops:317.25pt'><span
+style='mso-bookmark:tree_copy_move'><span style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:Tahoma;mso-bidi-font-family:"Times New Roman";layout-grid-mode:
+both'><span style='mso-tab-count:1'>                                                                                                          </span></span></span><span
+style='mso-bookmark:tree_copy_move'><span style='font-size:10.0pt;font-family:
+Tahoma;mso-bidi-font-family:"Times New Roman"'><o:p></o:p></span></span></p>
+
+<p class=Normal style='margin:0cm;margin-bottom:.0001pt;text-align:justify'><span
+style='mso-bookmark:tree_copy_move'><span style='font-size:10.0pt;font-family:
+Tahoma;mso-bidi-font-family:"Times New Roman"'>Найденные подходящие значения,
+упорядоченные по алфавиту, появляются в таблице (среди них могут быть и папки,
+и элементы). Если найдено очень много подходящих значений, в таблице можно, в
+свою очередь, также воспользоваться режимом поиска.<o:p></o:p></span></span></p>
+
+<p class=Normal style='margin:0cm;margin-bottom:.0001pt;text-align:justify'><span
+style='mso-bookmark:tree_copy_move'><span style='font-size:10.0pt;font-family:
+Tahoma;mso-bidi-font-family:"Times New Roman"'>Пользователь должен установить
+цветовое выделение на нужную строку и нажать кнопку с изображением молнии<span
+class=GramE> &lt;П</span>ерейти&gt; или дважды щелкнуть левой кнопкой мыши на
+нужной строке – система возвращается в элемент &quot;дерево&quot;, раскрывает
+все ведущие к искомому элементу папки и отображает искомый элемент, установив
+на него цветовое выделение.<o:p></o:p></span></span></p>
+
+<p class=Normal style='margin:0cm;margin-bottom:.0001pt;text-align:justify'><span
+style='mso-bookmark:tree_copy_move'><span style='font-size:10.0pt;font-family:
+Tahoma;mso-bidi-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></span></p>
+
+<p class=Normal style='margin:0cm;margin-bottom:.0001pt'><span
+style='mso-bookmark:tree_copy_move'><span style='font-size:10.0pt;font-family:
+Tahoma;mso-bidi-font-family:"Times New Roman"'>Если подходящие значения среди
+папок и элементов &quot;дерева&quot; не найдены, пользователь получает
+сообщение </span></span><span style='mso-bookmark:tree_copy_move'><span
+style='font-size:10.0pt;font-family:Tahoma;mso-bidi-font-family:"Courier New"'>&quot;Не
+найдено!&quot;</span></span><span style='mso-bookmark:tree_copy_move'><span
+style='font-size:10.0pt;font-family:Tahoma;mso-bidi-font-family:"Times New Roman"'>.<b
+style='mso-bidi-font-weight:normal'><i><o:p></o:p></i></b></span></span></p>
+
+<span style='mso-bookmark:tree_copy_move'></span>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:10.0pt;
+mso-bidi-font-size:12.0pt;font-family:Tahoma;mso-bidi-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:10.0pt;
+mso-bidi-font-size:12.0pt;font-family:Tahoma;mso-bidi-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+
+<h3><span style='font-family:Tahoma;mso-bidi-font-family:"Times New Roman";
+font-weight:normal'>Пометка элементов и групп в &quot;дереве&quot;<o:p></o:p></span></h3>
+
+<h4><span style='font-family:Tahoma;mso-bidi-font-family:"Times New Roman"'>Снятие
+пометки с элементов и групп &quot;дерева&quot;<o:p></o:p></span></h4>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:10.0pt;
+mso-bidi-font-size:12.0pt;font-family:Tahoma;mso-bidi-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:10.0pt;
+mso-bidi-font-size:12.0pt;font-family:Tahoma;mso-bidi-font-family:"Times New Roman"'>Если
+предполагается, что в экранной форме пользователь должен пометить несколько
+записей &quot;дерева&quot; (или одну запись, или все записи, или ничего не
+помечать), папки и строки &quot;дерева&quot; будут снабжены флажками (квадратиками),
+в которых пользователь может поставить галочку (пометить) или снять галочку
+(снять пометку).<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:10.0pt;
+mso-bidi-font-size:12.0pt;font-family:Tahoma;mso-bidi-font-family:"Times New Roman"'>В
+последующих действиях будут участвовать только помеченные галочками записи. <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:10.0pt;
+mso-bidi-font-size:12.0pt;font-family:Tahoma;mso-bidi-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoBodyText><span style='font-family:Tahoma;mso-bidi-font-family:"Times New Roman"'>Если
+пользователь отмечает группу, обычно отмечаются и все записи, входящие в эту
+группу, до самого нижнего уровня. <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:10.0pt;
+mso-bidi-font-size:12.0pt;font-family:Tahoma;mso-bidi-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='tab-stops:288.9pt'><span style='font-size:10.0pt;
+mso-bidi-font-size:12.0pt;font-family:Tahoma;mso-bidi-font-family:"Times New Roman"'>Если
+пользователь снимает пометку с группы, обычно пометка снимается и со всех
+записей, входящих в эту группу, до самого нижнего уровня. <span
+style='mso-tab-count:1'>                                                            </span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:10.0pt;
+mso-bidi-font-size:12.0pt;font-family:Tahoma;mso-bidi-font-family:"Times New Roman"'>Чтобы
+пометить <i>сразу все папки и элементы </i>&quot;дерева&quot;, следует щелкнуть
+правой кнопкой мыши на территории &quot;дерева&quot; и в появившемся меню
+выбрать пункт &quot;Пометить все&quot;. <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:10.0pt;
+mso-bidi-font-size:12.0pt;font-family:Tahoma;mso-bidi-font-family:"Times New Roman"'>Чтобы
+<i>снять пометку сразу со всех папок и элементов </i>&quot;дерева&quot;,
+следует щелкнуть правой кнопкой мыши на территории &quot;дерева&quot; и в
+появившемся меню выбрать пункт &quot;Снять все пометки&quot;. <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:10.0pt;
+mso-bidi-font-size:12.0pt;font-family:Tahoma;mso-bidi-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+
+</div>
+
+</body>
+
+</html>
