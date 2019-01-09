@@ -334,8 +334,11 @@ namespace WMSSuitable
 
 		private bool cboStoresZones_Restore()
 		{
-			oStoresZones.FilterStoreZoneTypeForPicking = true;
-			oStoresZones.FillData();
+            // Изменение от 03.01.2019 Александров
+            // Теперь подтверждение коробочных перемещений возможно из любых зон
+            //oStoresZones.FilterStoreZoneTypeForPicking = true;
+            oStoresZones.FilterStoreZoneTypeForPicking = null;
+            oStoresZones.FillData();
 
 			//
 			DataColumn dc = new DataColumn(); 
