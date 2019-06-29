@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
@@ -165,7 +166,7 @@ namespace WMSSuitable
 			cboStoresZones.Enabled = true;
 
             // добавить виртуальную зону для перемещений из Lost&Found
-			Setting oSet = new Setting();
+            Setting oSet = new Setting();
 			sLostFoundAddress = oSet.FillVariable("sLostFoundAddress");
 			if (sLostFoundAddress != null && sLostFoundAddress.Length > 0)
 			{
@@ -189,7 +190,7 @@ namespace WMSSuitable
 			}
 			if (dvlf.Count > 0)
 			{
-				// найдем эту зону и добавим ее в список
+				// найдем эту зону и добавим ее в список (если ее там еще нет)
 				StoreZone oStoreZoneVirtual = new StoreZone();
 				oStoreZoneVirtual.FillData();
 				foreach (DataRow drz in oStoreZoneVirtual.MainTable.Rows)
@@ -197,7 +198,17 @@ namespace WMSSuitable
 					if (Convert.ToBoolean(drz["Special"]))
 					{
 						drz["Name"] = "_неизвестен";
-						oStoresZones.MainTable.ImportRow(drz);
+
+                        // Изменение от 09.01.2019
+                        //oStoresZones.MainTable.ImportRow(drz);
+
+                        int nID = (int)drz["ID"];
+                        bool bExists = false;
+                        foreach (DataRow drs in oStoresZones.MainTable.Rows)
+                            if ((int)drs["ID"] == nID) bExists = true;
+
+                        if (!bExists)
+						    oStoresZones.MainTable.ImportRow(drz);
 					}
 				}
 			}

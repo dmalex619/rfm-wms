@@ -10,7 +10,7 @@ namespace WMSSuitable
 	public static class StartProgram
 	{
 		public static object[] ParamStore = null;
-		public static string CurVersion = "SuitableWMS 3.0.190109";
+		public static string CurVersion = "SuitableWMS 3.0.190630";
 
 		/// <summary>
 		/// The main entry point for the application.
