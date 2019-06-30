@@ -2816,10 +2816,9 @@ namespace WMSSuitable
             this.PageSettings.Margins.Top = 0.3937008F;
             this.PageSettings.Orientation = DataDynamics.ActiveReports.Document.PageOrientation.Portrait;
             this.PageSettings.PaperHeight = 11.69291F;
-            this.PageSettings.PaperKind = System.Drawing.Printing.PaperKind.Custom;
-            this.PageSettings.PaperName = "Custom paper";
+            this.PageSettings.PaperKind = System.Drawing.Printing.PaperKind.A4;
             this.PageSettings.PaperWidth = 8.267716F;
-            this.PrintWidth = 7.598428F;
+            this.PrintWidth = 7.480315F;
             this.Sections.Add(this.pageHeader);
             this.Sections.Add(this.groupInputID);
             this.Sections.Add(this.detail);

@@ -186,6 +186,9 @@
   <data name="txtDateConfirm.OutputFormat" xml:space="preserve">
     <value />
   </data>
+  <data name="txtDateConfirm.OutputFormat" xml:space="preserve">
+    <value />
+  </data>
   <data name="textBox18.OutputFormat" xml:space="preserve">
     <value># ##0</value>
   </data>
