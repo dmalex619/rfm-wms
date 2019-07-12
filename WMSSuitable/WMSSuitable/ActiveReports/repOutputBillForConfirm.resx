@@ -147,45 +147,6 @@
   <data name="txtQntPicked.OutputFormat" xml:space="preserve">
     <value># ##0</value>
   </data>
-  <data name="txtQntWished.OutputFormat" xml:space="preserve">
-    <value># ###</value>
-  </data>
-  <data name="txtInBox.OutputFormat" xml:space="preserve">
-    <value># ##0</value>
-  </data>
-  <data name="txtQntWishedW.OutputFormat" xml:space="preserve">
-    <value># ##0.000</value>
-  </data>
-  <data name="textBox5.OutputFormat" xml:space="preserve">
-    <value># ###</value>
-  </data>
-  <data name="textBox3.OutputFormat" xml:space="preserve">
-    <value />
-  </data>
-  <data name="textBox11.OutputFormat" xml:space="preserve">
-    <value># ##0</value>
-  </data>
-  <data name="txtQntPickedW.OutputFormat" xml:space="preserve">
-    <value># ##0.000</value>
-  </data>
-  <data name="textBox24.OutputFormat" xml:space="preserve">
-    <value>###0</value>
-  </data>
-  <data name="txtInBoxW.OutputFormat" xml:space="preserve">
-    <value># ##0.000</value>
-  </data>
-  <data name="txtQntPicked.OutputFormat" xml:space="preserve">
-    <value># ##0</value>
-  </data>
-  <data name="txtNetto.OutputFormat" xml:space="preserve">
-    <value># ##0.0</value>
-  </data>
-  <data name="txtBrutto.OutputFormat" xml:space="preserve">
-    <value># ##0.0</value>
-  </data>
-  <data name="txtCarAlias.OutputFormat" xml:space="preserve">
-    <value />
-  </data>
   <data name="txtNetto.OutputFormat" xml:space="preserve">
     <value># ##0.0</value>
   </data>

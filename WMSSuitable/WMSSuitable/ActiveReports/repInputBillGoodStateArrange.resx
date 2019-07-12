@@ -150,62 +150,8 @@
   <data name="txtInBoxW.OutputFormat" xml:space="preserve">
     <value># ##0.000</value>
   </data>
-  <data name="txtQntWished.OutputFormat" xml:space="preserve">
-    <value># ##0</value>
-  </data>
-  <data name="txtQntWishedW.OutputFormat" xml:space="preserve">
-    <value># ##0.000</value>
-  </data>
-  <data name="txtBoxWished.OutputFormat" xml:space="preserve">
-    <value># ##0.0</value>
-  </data>
-  <data name="txtBoxArranged.OutputFormat" xml:space="preserve">
-    <value># ##0.0</value>
-  </data>
-  <data name="txtBoxArrangedDiff.OutputFormat" xml:space="preserve">
-    <value># ##0.0</value>
-  </data>
-  <data name="txtQntArranged.OutputFormat" xml:space="preserve">
-    <value># ##0</value>
-  </data>
-  <data name="txtQntArrangedDiff.OutputFormat" xml:space="preserve">
-    <value># ###</value>
-  </data>
-  <data name="txtQntArrangedW.OutputFormat" xml:space="preserve">
-    <value># ##0.000</value>
-  </data>
-  <data name="txtQntArrangedDiffW.OutputFormat" xml:space="preserve">
-    <value># ###.000</value>
-  </data>
-  <data name="txtInBox.OutputFormat" xml:space="preserve">
-    <value># ##0</value>
-  </data>
-  <data name="txtInBoxW.OutputFormat" xml:space="preserve">
-    <value># ##0.000</value>
-  </data>
   <data name="txtDateConfirm.OutputFormat" xml:space="preserve">
     <value />
-  </data>
-  <data name="txtDateConfirm.OutputFormat" xml:space="preserve">
-    <value />
-  </data>
-  <data name="textBox18.OutputFormat" xml:space="preserve">
-    <value># ##0</value>
-  </data>
-  <data name="textBox17.OutputFormat" xml:space="preserve">
-    <value># ##0</value>
-  </data>
-  <data name="textBox16.OutputFormat" xml:space="preserve">
-    <value># ###</value>
-  </data>
-  <data name="textBox15.OutputFormat" xml:space="preserve">
-    <value># ##0.0</value>
-  </data>
-  <data name="textBox14.OutputFormat" xml:space="preserve">
-    <value># ##0.0</value>
-  </data>
-  <data name="textBox13.OutputFormat" xml:space="preserve">
-    <value># ##0.0</value>
   </data>
   <data name="textBox18.OutputFormat" xml:space="preserve">
     <value># ##0</value>

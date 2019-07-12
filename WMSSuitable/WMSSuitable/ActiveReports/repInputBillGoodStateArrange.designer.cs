@@ -44,6 +44,7 @@ namespace WMSSuitable
             this.txtGoodStateName = new DataDynamics.ActiveReports.TextBox();
             this.txtInBox = new DataDynamics.ActiveReports.TextBox();
             this.txtInBoxW = new DataDynamics.ActiveReports.TextBox();
+            this.line7 = new DataDynamics.ActiveReports.Line();
             this.pageFooter = new DataDynamics.ActiveReports.PageFooter();
             this.reportInfo2 = new DataDynamics.ActiveReports.ReportInfo();
             this.label16 = new DataDynamics.ActiveReports.Label();
@@ -156,7 +157,6 @@ namespace WMSSuitable
             this.label61 = new DataDynamics.ActiveReports.Label();
             this.label62 = new DataDynamics.ActiveReports.Label();
             this.label63 = new DataDynamics.ActiveReports.Label();
-            this.line7 = new DataDynamics.ActiveReports.Line();
             ((System.ComponentModel.ISupportInitialize)(this.reportInfo1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtGoodAlias)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtQntWished)).BeginInit();
@@ -565,6 +565,28 @@ namespace WMSSuitable
             this.txtInBoxW.Text = "txtInBox";
             this.txtInBoxW.Top = 0.03937008F;
             this.txtInBoxW.Width = 0.5659449F;
+            // 
+            // line7
+            // 
+            this.line7.Border.BottomColor = System.Drawing.Color.Black;
+            this.line7.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
+            this.line7.Border.LeftColor = System.Drawing.Color.Black;
+            this.line7.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
+            this.line7.Border.RightColor = System.Drawing.Color.Black;
+            this.line7.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
+            this.line7.Border.TopColor = System.Drawing.Color.Black;
+            this.line7.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
+            this.line7.Height = 0F;
+            this.line7.Left = 0.03937008F;
+            this.line7.LineStyle = DataDynamics.ActiveReports.LineStyle.Dot;
+            this.line7.LineWeight = 1F;
+            this.line7.Name = "line7";
+            this.line7.Top = 0.2258038F;
+            this.line7.Width = 7.362205F;
+            this.line7.X1 = 0.03937008F;
+            this.line7.X2 = 7.401575F;
+            this.line7.Y1 = 0.2258038F;
+            this.line7.Y2 = 0.2258038F;
             // 
             // pageFooter
             // 
@@ -2373,7 +2395,7 @@ namespace WMSSuitable
             this.label47.Left = 3.937008F;
             this.label47.Name = "label47";
             this.label47.Style = "ddo-char-set: 204; font-weight: normal; font-size: 9pt; font-family: Tahoma; ";
-            this.label47.Text = "формирование упакоыочного листа";
+            this.label47.Text = "формирование упаковочного листа";
             this.label47.Top = 2.125984F;
             this.label47.Width = 2.362205F;
             // 
@@ -2784,28 +2806,6 @@ namespace WMSSuitable
             this.label63.Text = "_________________________/________________________________________";
             this.label63.Top = 4.84252F;
             this.label63.Width = 4.72441F;
-            // 
-            // line7
-            // 
-            this.line7.Border.BottomColor = System.Drawing.Color.Black;
-            this.line7.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
-            this.line7.Border.LeftColor = System.Drawing.Color.Black;
-            this.line7.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
-            this.line7.Border.RightColor = System.Drawing.Color.Black;
-            this.line7.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
-            this.line7.Border.TopColor = System.Drawing.Color.Black;
-            this.line7.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
-            this.line7.Height = 0F;
-            this.line7.Left = 0.03937008F;
-            this.line7.LineStyle = DataDynamics.ActiveReports.LineStyle.Dot;
-            this.line7.LineWeight = 1F;
-            this.line7.Name = "line7";
-            this.line7.Top = 0.2258038F;
-            this.line7.Width = 7.362205F;
-            this.line7.X1 = 0.03937008F;
-            this.line7.X2 = 7.401575F;
-            this.line7.Y1 = 0.2258038F;
-            this.line7.Y2 = 0.2258038F;
             // 
             // repInputBillGoodStateArrange
             // 

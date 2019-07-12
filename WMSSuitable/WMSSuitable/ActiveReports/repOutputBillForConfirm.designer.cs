@@ -88,27 +88,6 @@ namespace WMSSuitable
             this.label22 = new DataDynamics.ActiveReports.Label();
             this.line10 = new DataDynamics.ActiveReports.Line();
             this.line11 = new DataDynamics.ActiveReports.Line();
-            this.groupStoreZoneName = new DataDynamics.ActiveReports.GroupHeader();
-            this.line6 = new DataDynamics.ActiveReports.Line();
-            this.textBox2 = new DataDynamics.ActiveReports.TextBox();
-            this.groupStoreZoneNameFooter = new DataDynamics.ActiveReports.GroupFooter();
-            this.label2 = new DataDynamics.ActiveReports.Label();
-            this.label18 = new DataDynamics.ActiveReports.Label();
-            this.txtBoxSum = new DataDynamics.ActiveReports.TextBox();
-            this.txtQntSum = new DataDynamics.ActiveReports.TextBox();
-            this.groupWeighting = new DataDynamics.ActiveReports.GroupHeader();
-            this.lblQntWished_ = new DataDynamics.ActiveReports.Label();
-            this.lblConfirmed = new DataDynamics.ActiveReports.Label();
-            this.textBox26 = new DataDynamics.ActiveReports.TextBox();
-            this.label23 = new DataDynamics.ActiveReports.Label();
-            this.label10 = new DataDynamics.ActiveReports.Label();
-            this.label6 = new DataDynamics.ActiveReports.Label();
-            this.label4 = new DataDynamics.ActiveReports.Label();
-            this.label19 = new DataDynamics.ActiveReports.Label();
-            this.line5 = new DataDynamics.ActiveReports.Line();
-            this.textBox6 = new DataDynamics.ActiveReports.TextBox();
-            this.line2 = new DataDynamics.ActiveReports.Line();
-            this.groupFooterWeighting = new DataDynamics.ActiveReports.GroupFooter();
             this.label8 = new DataDynamics.ActiveReports.Label();
             this.shape1 = new DataDynamics.ActiveReports.Shape();
             this.line1 = new DataDynamics.ActiveReports.Line();
@@ -167,6 +146,27 @@ namespace WMSSuitable
             this.label52 = new DataDynamics.ActiveReports.Label();
             this.label53 = new DataDynamics.ActiveReports.Label();
             this.label54 = new DataDynamics.ActiveReports.Label();
+            this.groupStoreZoneName = new DataDynamics.ActiveReports.GroupHeader();
+            this.line6 = new DataDynamics.ActiveReports.Line();
+            this.textBox2 = new DataDynamics.ActiveReports.TextBox();
+            this.groupStoreZoneNameFooter = new DataDynamics.ActiveReports.GroupFooter();
+            this.label2 = new DataDynamics.ActiveReports.Label();
+            this.label18 = new DataDynamics.ActiveReports.Label();
+            this.txtBoxSum = new DataDynamics.ActiveReports.TextBox();
+            this.txtQntSum = new DataDynamics.ActiveReports.TextBox();
+            this.groupWeighting = new DataDynamics.ActiveReports.GroupHeader();
+            this.lblQntWished_ = new DataDynamics.ActiveReports.Label();
+            this.lblConfirmed = new DataDynamics.ActiveReports.Label();
+            this.textBox26 = new DataDynamics.ActiveReports.TextBox();
+            this.label23 = new DataDynamics.ActiveReports.Label();
+            this.label10 = new DataDynamics.ActiveReports.Label();
+            this.label6 = new DataDynamics.ActiveReports.Label();
+            this.label4 = new DataDynamics.ActiveReports.Label();
+            this.label19 = new DataDynamics.ActiveReports.Label();
+            this.line5 = new DataDynamics.ActiveReports.Line();
+            this.textBox6 = new DataDynamics.ActiveReports.TextBox();
+            this.line2 = new DataDynamics.ActiveReports.Line();
+            this.groupFooterWeighting = new DataDynamics.ActiveReports.GroupFooter();
             ((System.ComponentModel.ISupportInitialize)(this.reportInfo1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtQntWished)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtInBox)).BeginInit();
@@ -211,20 +211,6 @@ namespace WMSSuitable
             ((System.ComponentModel.ISupportInitialize)(this.label20)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.label21)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.label22)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.label2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.label18)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txtBoxSum)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txtQntSum)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.lblQntWished_)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.lblConfirmed)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textBox26)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.label23)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.label10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.label6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.label4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.label19)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.label8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textBox10)).BeginInit();
@@ -264,6 +250,20 @@ namespace WMSSuitable
             ((System.ComponentModel.ISupportInitialize)(this.label52)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.label53)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.label54)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.label2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.label18)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtBoxSum)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtQntSum)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lblQntWished_)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lblConfirmed)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textBox26)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.label23)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.label10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.label6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.label4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.label19)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             // 
             // pageHeader
@@ -1515,396 +1515,6 @@ namespace WMSSuitable
             this.line11.Y1 = 0.8661417F;
             this.line11.Y2 = 0.8661417F;
             // 
-            // groupStoreZoneName
-            // 
-            this.groupStoreZoneName.Controls.AddRange(new DataDynamics.ActiveReports.ARControl[] {
-            this.line6,
-            this.textBox2});
-            this.groupStoreZoneName.DataField = "StoreZoneName";
-            this.groupStoreZoneName.Height = 0.2708333F;
-            this.groupStoreZoneName.KeepTogether = true;
-            this.groupStoreZoneName.Name = "groupStoreZoneName";
-            this.groupStoreZoneName.RepeatStyle = DataDynamics.ActiveReports.RepeatStyle.OnPageIncludeNoDetail;
-            // 
-            // line6
-            // 
-            this.line6.Border.BottomColor = System.Drawing.Color.Black;
-            this.line6.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
-            this.line6.Border.LeftColor = System.Drawing.Color.Black;
-            this.line6.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
-            this.line6.Border.RightColor = System.Drawing.Color.Black;
-            this.line6.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
-            this.line6.Border.TopColor = System.Drawing.Color.Black;
-            this.line6.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
-            this.line6.Height = 0F;
-            this.line6.Left = 0.03937008F;
-            this.line6.LineWeight = 1F;
-            this.line6.Name = "line6";
-            this.line6.Top = 0F;
-            this.line6.Width = 7.401575F;
-            this.line6.X1 = 0.03937008F;
-            this.line6.X2 = 7.440945F;
-            this.line6.Y1 = 0F;
-            this.line6.Y2 = 0F;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Border.BottomColor = System.Drawing.Color.Black;
-            this.textBox2.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
-            this.textBox2.Border.LeftColor = System.Drawing.Color.Black;
-            this.textBox2.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
-            this.textBox2.Border.RightColor = System.Drawing.Color.Black;
-            this.textBox2.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
-            this.textBox2.Border.TopColor = System.Drawing.Color.Black;
-            this.textBox2.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
-            this.textBox2.DataField = "StoreZoneName";
-            this.textBox2.Height = 0.1968504F;
-            this.textBox2.Left = 0.03937008F;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Style = "font-weight: bold; font-size: 12pt; ";
-            this.textBox2.Text = "StoreZoneName";
-            this.textBox2.Top = 0.03937008F;
-            this.textBox2.Width = 3.267717F;
-            // 
-            // groupStoreZoneNameFooter
-            // 
-            this.groupStoreZoneNameFooter.Height = 0F;
-            this.groupStoreZoneNameFooter.KeepTogether = true;
-            this.groupStoreZoneNameFooter.Name = "groupStoreZoneNameFooter";
-            // 
-            // label2
-            // 
-            this.label2.Border.BottomColor = System.Drawing.Color.Black;
-            this.label2.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
-            this.label2.Border.LeftColor = System.Drawing.Color.Black;
-            this.label2.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
-            this.label2.Border.RightColor = System.Drawing.Color.Black;
-            this.label2.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
-            this.label2.Border.TopColor = System.Drawing.Color.Black;
-            this.label2.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
-            this.label2.Height = 0.1574803F;
-            this.label2.HyperLink = null;
-            this.label2.Left = 3.503937F;
-            this.label2.Name = "label2";
-            this.label2.Style = "ddo-char-set: 1; text-align: left; font-size: 8pt; ";
-            this.label2.Text = "Итого по зоне коробок:";
-            this.label2.Top = 0.03937008F;
-            this.label2.Width = 1.259843F;
-            // 
-            // label18
-            // 
-            this.label18.Border.BottomColor = System.Drawing.Color.Black;
-            this.label18.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
-            this.label18.Border.LeftColor = System.Drawing.Color.Black;
-            this.label18.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
-            this.label18.Border.RightColor = System.Drawing.Color.Black;
-            this.label18.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
-            this.label18.Border.TopColor = System.Drawing.Color.Black;
-            this.label18.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
-            this.label18.Height = 0.1574803F;
-            this.label18.HyperLink = null;
-            this.label18.Left = 3.503937F;
-            this.label18.Name = "label18";
-            this.label18.Style = "ddo-char-set: 1; text-align: left; font-size: 8pt; ";
-            this.label18.Text = "Итого по зоне штук:";
-            this.label18.Top = 0.1968504F;
-            this.label18.Width = 1.259843F;
-            // 
-            // txtBoxSum
-            // 
-            this.txtBoxSum.Border.BottomColor = System.Drawing.Color.Black;
-            this.txtBoxSum.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
-            this.txtBoxSum.Border.LeftColor = System.Drawing.Color.Black;
-            this.txtBoxSum.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
-            this.txtBoxSum.Border.RightColor = System.Drawing.Color.Black;
-            this.txtBoxSum.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
-            this.txtBoxSum.Border.TopColor = System.Drawing.Color.Black;
-            this.txtBoxSum.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
-            this.txtBoxSum.DataField = "BoxWished";
-            this.txtBoxSum.Height = 0.1968504F;
-            this.txtBoxSum.Left = 5.016076F;
-            this.txtBoxSum.Name = "txtBoxSum";
-            this.txtBoxSum.OutputFormat = resources.GetString("txtBoxSum.OutputFormat");
-            this.txtBoxSum.Style = "text-align: right; font-weight: bold; font-size: 11pt; ";
-            this.txtBoxSum.SummaryGroup = "groupWeighting";
-            this.txtBoxSum.SummaryRunning = DataDynamics.ActiveReports.SummaryRunning.Group;
-            this.txtBoxSum.SummaryType = DataDynamics.ActiveReports.SummaryType.SubTotal;
-            this.txtBoxSum.Text = "txtBoxSum";
-            this.txtBoxSum.Top = 0F;
-            this.txtBoxSum.Width = 0.905512F;
-            // 
-            // txtQntSum
-            // 
-            this.txtQntSum.Border.BottomColor = System.Drawing.Color.Black;
-            this.txtQntSum.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
-            this.txtQntSum.Border.LeftColor = System.Drawing.Color.Black;
-            this.txtQntSum.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
-            this.txtQntSum.Border.RightColor = System.Drawing.Color.Black;
-            this.txtQntSum.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
-            this.txtQntSum.Border.TopColor = System.Drawing.Color.Black;
-            this.txtQntSum.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
-            this.txtQntSum.DataField = "QntWished";
-            this.txtQntSum.Height = 0.1968504F;
-            this.txtQntSum.Left = 5.669291F;
-            this.txtQntSum.Name = "txtQntSum";
-            this.txtQntSum.OutputFormat = resources.GetString("txtQntSum.OutputFormat");
-            this.txtQntSum.Style = "text-align: right; font-weight: bold; font-size: 11pt; ";
-            this.txtQntSum.SummaryGroup = "groupWeighting";
-            this.txtQntSum.SummaryRunning = DataDynamics.ActiveReports.SummaryRunning.Group;
-            this.txtQntSum.SummaryType = DataDynamics.ActiveReports.SummaryType.SubTotal;
-            this.txtQntSum.Text = "txtQntSum";
-            this.txtQntSum.Top = 0.1181102F;
-            this.txtQntSum.Width = 1.181103F;
-            // 
-            // groupWeighting
-            // 
-            this.groupWeighting.CanShrink = true;
-            this.groupWeighting.Controls.AddRange(new DataDynamics.ActiveReports.ARControl[] {
-            this.lblQntWished_,
-            this.lblConfirmed,
-            this.textBox26,
-            this.label23,
-            this.label10,
-            this.label6,
-            this.label4,
-            this.label19,
-            this.line5,
-            this.textBox6,
-            this.line2});
-            this.groupWeighting.DataField = "Weighting";
-            this.groupWeighting.Height = 0.472441F;
-            this.groupWeighting.KeepTogether = true;
-            this.groupWeighting.Name = "groupWeighting";
-            this.groupWeighting.RepeatStyle = DataDynamics.ActiveReports.RepeatStyle.OnPageIncludeNoDetail;
-            // 
-            // lblQntWished_
-            // 
-            this.lblQntWished_.Border.BottomColor = System.Drawing.Color.Black;
-            this.lblQntWished_.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
-            this.lblQntWished_.Border.LeftColor = System.Drawing.Color.Black;
-            this.lblQntWished_.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
-            this.lblQntWished_.Border.RightColor = System.Drawing.Color.Black;
-            this.lblQntWished_.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
-            this.lblQntWished_.Border.TopColor = System.Drawing.Color.Black;
-            this.lblQntWished_.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
-            this.lblQntWished_.Height = 0.2362205F;
-            this.lblQntWished_.HyperLink = null;
-            this.lblQntWished_.Left = 6.338583F;
-            this.lblQntWished_.Name = "lblQntWished_";
-            this.lblQntWished_.Style = "ddo-char-set: 204; text-align: center; font-size: 6.75pt; ";
-            this.lblQntWished_.Text = "Заказ штук";
-            this.lblQntWished_.Top = 0.2362205F;
-            this.lblQntWished_.Width = 0.3937008F;
-            // 
-            // lblConfirmed
-            // 
-            this.lblConfirmed.Border.BottomColor = System.Drawing.Color.Black;
-            this.lblConfirmed.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
-            this.lblConfirmed.Border.LeftColor = System.Drawing.Color.Black;
-            this.lblConfirmed.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
-            this.lblConfirmed.Border.RightColor = System.Drawing.Color.Black;
-            this.lblConfirmed.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
-            this.lblConfirmed.Border.TopColor = System.Drawing.Color.Black;
-            this.lblConfirmed.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
-            this.lblConfirmed.Height = 0.2362205F;
-            this.lblConfirmed.HyperLink = null;
-            this.lblConfirmed.Left = 6.889764F;
-            this.lblConfirmed.Name = "lblConfirmed";
-            this.lblConfirmed.Style = "ddo-char-set: 204; text-align: center; font-size: 6.75pt; ";
-            this.lblConfirmed.Text = "Факт. отгружено";
-            this.lblConfirmed.Top = 0.2362205F;
-            this.lblConfirmed.Width = 0.511811F;
-            // 
-            // textBox26
-            // 
-            this.textBox26.Border.BottomColor = System.Drawing.Color.Black;
-            this.textBox26.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
-            this.textBox26.Border.LeftColor = System.Drawing.Color.Black;
-            this.textBox26.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
-            this.textBox26.Border.RightColor = System.Drawing.Color.Black;
-            this.textBox26.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
-            this.textBox26.Border.TopColor = System.Drawing.Color.Black;
-            this.textBox26.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
-            this.textBox26.CanShrink = true;
-            this.textBox26.DataField = "=(PrintDecimals) ? \"ВЕСОВОЙ ТОВАР\" : \"\"";
-            this.textBox26.Height = 0.1968504F;
-            this.textBox26.Left = 0.03937008F;
-            this.textBox26.Name = "textBox26";
-            this.textBox26.Style = "ddo-char-set: 204; text-decoration: underline; font-weight: bold; font-size: 11.2" +
-    "5pt; ";
-            this.textBox26.Text = "ВЕСОВОЙ ТОВАР?";
-            this.textBox26.Top = 0F;
-            this.textBox26.Width = 4.566929F;
-            // 
-            // label23
-            // 
-            this.label23.Border.BottomColor = System.Drawing.Color.Black;
-            this.label23.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
-            this.label23.Border.LeftColor = System.Drawing.Color.Black;
-            this.label23.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
-            this.label23.Border.RightColor = System.Drawing.Color.Black;
-            this.label23.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
-            this.label23.Border.TopColor = System.Drawing.Color.Black;
-            this.label23.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
-            this.label23.Height = 0.1181102F;
-            this.label23.HyperLink = null;
-            this.label23.Left = 0.9448819F;
-            this.label23.Name = "label23";
-            this.label23.Style = "ddo-char-set: 204; text-align: center; font-weight: normal; font-size: 6.75pt; ";
-            this.label23.Text = "Ост.";
-            this.label23.Top = 0.2362205F;
-            this.label23.Width = 0.2362205F;
-            // 
-            // label10
-            // 
-            this.label10.Border.BottomColor = System.Drawing.Color.Black;
-            this.label10.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
-            this.label10.Border.LeftColor = System.Drawing.Color.Black;
-            this.label10.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
-            this.label10.Border.RightColor = System.Drawing.Color.Black;
-            this.label10.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
-            this.label10.Border.TopColor = System.Drawing.Color.Black;
-            this.label10.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
-            this.label10.Height = 0.1181102F;
-            this.label10.HyperLink = null;
-            this.label10.Left = 1.181102F;
-            this.label10.Name = "label10";
-            this.label10.Style = "ddo-char-set: 204; text-align: left; font-size: 6.75pt; ";
-            this.label10.Text = "Артикул";
-            this.label10.Top = 0.2362205F;
-            this.label10.Width = 0.511811F;
-            // 
-            // label6
-            // 
-            this.label6.Border.BottomColor = System.Drawing.Color.Black;
-            this.label6.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
-            this.label6.Border.LeftColor = System.Drawing.Color.Black;
-            this.label6.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
-            this.label6.Border.RightColor = System.Drawing.Color.Black;
-            this.label6.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
-            this.label6.Border.TopColor = System.Drawing.Color.Black;
-            this.label6.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
-            this.label6.Height = 0.1181102F;
-            this.label6.HyperLink = null;
-            this.label6.Left = 4.88189F;
-            this.label6.Name = "label6";
-            this.label6.Style = "ddo-char-set: 204; text-align: right; font-size: 6.75pt; ";
-            this.label6.Text = "В кор.";
-            this.label6.Top = 0.2362205F;
-            this.label6.Width = 0.3937008F;
-            // 
-            // label4
-            // 
-            this.label4.Border.BottomColor = System.Drawing.Color.Black;
-            this.label4.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
-            this.label4.Border.LeftColor = System.Drawing.Color.Black;
-            this.label4.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
-            this.label4.Border.RightColor = System.Drawing.Color.Black;
-            this.label4.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
-            this.label4.Border.TopColor = System.Drawing.Color.Black;
-            this.label4.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
-            this.label4.Height = 0.1181102F;
-            this.label4.HyperLink = null;
-            this.label4.Left = 2.007874F;
-            this.label4.Name = "label4";
-            this.label4.Style = "ddo-char-set: 204; font-size: 6.75pt; ";
-            this.label4.Text = "Товар (срок годности)";
-            this.label4.Top = 0.2362205F;
-            this.label4.Width = 1.181102F;
-            // 
-            // label19
-            // 
-            this.label19.Border.BottomColor = System.Drawing.Color.Black;
-            this.label19.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
-            this.label19.Border.LeftColor = System.Drawing.Color.Black;
-            this.label19.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
-            this.label19.Border.RightColor = System.Drawing.Color.Black;
-            this.label19.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
-            this.label19.Border.TopColor = System.Drawing.Color.Black;
-            this.label19.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
-            this.label19.Height = 0.1262303F;
-            this.label19.HyperLink = null;
-            this.label19.Left = 0.03937008F;
-            this.label19.Name = "label19";
-            this.label19.Style = "ddo-char-set: 204; font-weight: normal; font-size: 6.75pt; ";
-            this.label19.Text = "Из ячейки";
-            this.label19.Top = 0.2362205F;
-            this.label19.Width = 0.5511811F;
-            // 
-            // line5
-            // 
-            this.line5.Border.BottomColor = System.Drawing.Color.Black;
-            this.line5.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
-            this.line5.Border.LeftColor = System.Drawing.Color.Black;
-            this.line5.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
-            this.line5.Border.RightColor = System.Drawing.Color.Black;
-            this.line5.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
-            this.line5.Border.TopColor = System.Drawing.Color.Black;
-            this.line5.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
-            this.line5.Height = 0F;
-            this.line5.Left = 0.03937008F;
-            this.line5.LineWeight = 1F;
-            this.line5.Name = "line5";
-            this.line5.Top = 0.2165354F;
-            this.line5.Width = 7.401575F;
-            this.line5.X1 = 0.03937008F;
-            this.line5.X2 = 7.440945F;
-            this.line5.Y1 = 0.2165354F;
-            this.line5.Y2 = 0.2165354F;
-            // 
-            // textBox6
-            // 
-            this.textBox6.Border.BottomColor = System.Drawing.Color.Black;
-            this.textBox6.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
-            this.textBox6.Border.LeftColor = System.Drawing.Color.Black;
-            this.textBox6.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
-            this.textBox6.Border.RightColor = System.Drawing.Color.Black;
-            this.textBox6.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
-            this.textBox6.Border.TopColor = System.Drawing.Color.Black;
-            this.textBox6.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
-            this.textBox6.CanShrink = true;
-            this.textBox6.DataField = "=(PrintDecimals) ? \"\" : \"Заказ\"";
-            this.textBox6.Height = 0.2362205F;
-            this.textBox6.Left = 5.708662F;
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Style = "ddo-char-set: 204; text-decoration: none; text-align: center; font-weight: normal" +
-    "; font-size: 6.75pt; ";
-            this.textBox6.Text = "Заказ кор.";
-            this.textBox6.Top = 0.2362205F;
-            this.textBox6.Width = 0.3937008F;
-            // 
-            // line2
-            // 
-            this.line2.Border.BottomColor = System.Drawing.Color.Black;
-            this.line2.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
-            this.line2.Border.LeftColor = System.Drawing.Color.Black;
-            this.line2.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
-            this.line2.Border.RightColor = System.Drawing.Color.Black;
-            this.line2.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
-            this.line2.Border.TopColor = System.Drawing.Color.Black;
-            this.line2.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
-            this.line2.Height = 0F;
-            this.line2.Left = 0.03937008F;
-            this.line2.LineWeight = 1F;
-            this.line2.Name = "line2";
-            this.line2.Top = 0.511811F;
-            this.line2.Width = 7.401575F;
-            this.line2.X1 = 0.03937008F;
-            this.line2.X2 = 7.440945F;
-            this.line2.Y1 = 0.511811F;
-            this.line2.Y2 = 0.511811F;
-            // 
-            // groupFooterWeighting
-            // 
-            this.groupFooterWeighting.Controls.AddRange(new DataDynamics.ActiveReports.ARControl[] {
-            this.label2,
-            this.label18,
-            this.txtBoxSum,
-            this.txtQntSum});
-            this.groupFooterWeighting.Height = 0.3854167F;
-            this.groupFooterWeighting.KeepTogether = true;
-            this.groupFooterWeighting.Name = "groupFooterWeighting";
-            // 
             // label8
             // 
             this.label8.Border.BottomColor = System.Drawing.Color.Black;
@@ -2568,7 +2178,7 @@ namespace WMSSuitable
             this.label38.Left = 3.937008F;
             this.label38.Name = "label38";
             this.label38.Style = "ddo-char-set: 204; font-weight: normal; font-size: 9pt; font-family: Tahoma; ";
-            this.label38.Text = "формирование упакоыочного листа";
+            this.label38.Text = "формирование упаковочного листа";
             this.label38.Top = 2.125984F;
             this.label38.Width = 2.362205F;
             // 
@@ -2980,6 +2590,396 @@ namespace WMSSuitable
             this.label54.Top = 4.84252F;
             this.label54.Width = 4.72441F;
             // 
+            // groupStoreZoneName
+            // 
+            this.groupStoreZoneName.Controls.AddRange(new DataDynamics.ActiveReports.ARControl[] {
+            this.line6,
+            this.textBox2});
+            this.groupStoreZoneName.DataField = "StoreZoneName";
+            this.groupStoreZoneName.Height = 0.2708333F;
+            this.groupStoreZoneName.KeepTogether = true;
+            this.groupStoreZoneName.Name = "groupStoreZoneName";
+            this.groupStoreZoneName.RepeatStyle = DataDynamics.ActiveReports.RepeatStyle.OnPageIncludeNoDetail;
+            // 
+            // line6
+            // 
+            this.line6.Border.BottomColor = System.Drawing.Color.Black;
+            this.line6.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
+            this.line6.Border.LeftColor = System.Drawing.Color.Black;
+            this.line6.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
+            this.line6.Border.RightColor = System.Drawing.Color.Black;
+            this.line6.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
+            this.line6.Border.TopColor = System.Drawing.Color.Black;
+            this.line6.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
+            this.line6.Height = 0F;
+            this.line6.Left = 0.03937008F;
+            this.line6.LineWeight = 1F;
+            this.line6.Name = "line6";
+            this.line6.Top = 0F;
+            this.line6.Width = 7.401575F;
+            this.line6.X1 = 0.03937008F;
+            this.line6.X2 = 7.440945F;
+            this.line6.Y1 = 0F;
+            this.line6.Y2 = 0F;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Border.BottomColor = System.Drawing.Color.Black;
+            this.textBox2.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
+            this.textBox2.Border.LeftColor = System.Drawing.Color.Black;
+            this.textBox2.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
+            this.textBox2.Border.RightColor = System.Drawing.Color.Black;
+            this.textBox2.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
+            this.textBox2.Border.TopColor = System.Drawing.Color.Black;
+            this.textBox2.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
+            this.textBox2.DataField = "StoreZoneName";
+            this.textBox2.Height = 0.1968504F;
+            this.textBox2.Left = 0.03937008F;
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Style = "font-weight: bold; font-size: 12pt; ";
+            this.textBox2.Text = "StoreZoneName";
+            this.textBox2.Top = 0.03937008F;
+            this.textBox2.Width = 3.267717F;
+            // 
+            // groupStoreZoneNameFooter
+            // 
+            this.groupStoreZoneNameFooter.Height = 0F;
+            this.groupStoreZoneNameFooter.KeepTogether = true;
+            this.groupStoreZoneNameFooter.Name = "groupStoreZoneNameFooter";
+            // 
+            // label2
+            // 
+            this.label2.Border.BottomColor = System.Drawing.Color.Black;
+            this.label2.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
+            this.label2.Border.LeftColor = System.Drawing.Color.Black;
+            this.label2.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
+            this.label2.Border.RightColor = System.Drawing.Color.Black;
+            this.label2.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
+            this.label2.Border.TopColor = System.Drawing.Color.Black;
+            this.label2.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
+            this.label2.Height = 0.1574803F;
+            this.label2.HyperLink = null;
+            this.label2.Left = 3.503937F;
+            this.label2.Name = "label2";
+            this.label2.Style = "ddo-char-set: 1; text-align: left; font-size: 8pt; ";
+            this.label2.Text = "Итого по зоне коробок:";
+            this.label2.Top = 0.03937008F;
+            this.label2.Width = 1.259843F;
+            // 
+            // label18
+            // 
+            this.label18.Border.BottomColor = System.Drawing.Color.Black;
+            this.label18.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
+            this.label18.Border.LeftColor = System.Drawing.Color.Black;
+            this.label18.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
+            this.label18.Border.RightColor = System.Drawing.Color.Black;
+            this.label18.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
+            this.label18.Border.TopColor = System.Drawing.Color.Black;
+            this.label18.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
+            this.label18.Height = 0.1574803F;
+            this.label18.HyperLink = null;
+            this.label18.Left = 3.503937F;
+            this.label18.Name = "label18";
+            this.label18.Style = "ddo-char-set: 1; text-align: left; font-size: 8pt; ";
+            this.label18.Text = "Итого по зоне штук:";
+            this.label18.Top = 0.1968504F;
+            this.label18.Width = 1.259843F;
+            // 
+            // txtBoxSum
+            // 
+            this.txtBoxSum.Border.BottomColor = System.Drawing.Color.Black;
+            this.txtBoxSum.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
+            this.txtBoxSum.Border.LeftColor = System.Drawing.Color.Black;
+            this.txtBoxSum.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
+            this.txtBoxSum.Border.RightColor = System.Drawing.Color.Black;
+            this.txtBoxSum.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
+            this.txtBoxSum.Border.TopColor = System.Drawing.Color.Black;
+            this.txtBoxSum.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
+            this.txtBoxSum.DataField = "BoxWished";
+            this.txtBoxSum.Height = 0.1968504F;
+            this.txtBoxSum.Left = 5.016076F;
+            this.txtBoxSum.Name = "txtBoxSum";
+            this.txtBoxSum.OutputFormat = resources.GetString("txtBoxSum.OutputFormat");
+            this.txtBoxSum.Style = "text-align: right; font-weight: bold; font-size: 11pt; ";
+            this.txtBoxSum.SummaryGroup = "groupWeighting";
+            this.txtBoxSum.SummaryRunning = DataDynamics.ActiveReports.SummaryRunning.Group;
+            this.txtBoxSum.SummaryType = DataDynamics.ActiveReports.SummaryType.SubTotal;
+            this.txtBoxSum.Text = "txtBoxSum";
+            this.txtBoxSum.Top = 0F;
+            this.txtBoxSum.Width = 0.905512F;
+            // 
+            // txtQntSum
+            // 
+            this.txtQntSum.Border.BottomColor = System.Drawing.Color.Black;
+            this.txtQntSum.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
+            this.txtQntSum.Border.LeftColor = System.Drawing.Color.Black;
+            this.txtQntSum.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
+            this.txtQntSum.Border.RightColor = System.Drawing.Color.Black;
+            this.txtQntSum.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
+            this.txtQntSum.Border.TopColor = System.Drawing.Color.Black;
+            this.txtQntSum.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
+            this.txtQntSum.DataField = "QntWished";
+            this.txtQntSum.Height = 0.1968504F;
+            this.txtQntSum.Left = 5.669291F;
+            this.txtQntSum.Name = "txtQntSum";
+            this.txtQntSum.OutputFormat = resources.GetString("txtQntSum.OutputFormat");
+            this.txtQntSum.Style = "text-align: right; font-weight: bold; font-size: 11pt; ";
+            this.txtQntSum.SummaryGroup = "groupWeighting";
+            this.txtQntSum.SummaryRunning = DataDynamics.ActiveReports.SummaryRunning.Group;
+            this.txtQntSum.SummaryType = DataDynamics.ActiveReports.SummaryType.SubTotal;
+            this.txtQntSum.Text = "txtQntSum";
+            this.txtQntSum.Top = 0.1181102F;
+            this.txtQntSum.Width = 1.181103F;
+            // 
+            // groupWeighting
+            // 
+            this.groupWeighting.CanShrink = true;
+            this.groupWeighting.Controls.AddRange(new DataDynamics.ActiveReports.ARControl[] {
+            this.lblQntWished_,
+            this.lblConfirmed,
+            this.textBox26,
+            this.label23,
+            this.label10,
+            this.label6,
+            this.label4,
+            this.label19,
+            this.line5,
+            this.textBox6,
+            this.line2});
+            this.groupWeighting.DataField = "Weighting";
+            this.groupWeighting.Height = 0.472441F;
+            this.groupWeighting.KeepTogether = true;
+            this.groupWeighting.Name = "groupWeighting";
+            this.groupWeighting.RepeatStyle = DataDynamics.ActiveReports.RepeatStyle.OnPageIncludeNoDetail;
+            // 
+            // lblQntWished_
+            // 
+            this.lblQntWished_.Border.BottomColor = System.Drawing.Color.Black;
+            this.lblQntWished_.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
+            this.lblQntWished_.Border.LeftColor = System.Drawing.Color.Black;
+            this.lblQntWished_.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
+            this.lblQntWished_.Border.RightColor = System.Drawing.Color.Black;
+            this.lblQntWished_.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
+            this.lblQntWished_.Border.TopColor = System.Drawing.Color.Black;
+            this.lblQntWished_.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
+            this.lblQntWished_.Height = 0.2362205F;
+            this.lblQntWished_.HyperLink = null;
+            this.lblQntWished_.Left = 6.338583F;
+            this.lblQntWished_.Name = "lblQntWished_";
+            this.lblQntWished_.Style = "ddo-char-set: 204; text-align: center; font-size: 6.75pt; ";
+            this.lblQntWished_.Text = "Заказ штук";
+            this.lblQntWished_.Top = 0.2362205F;
+            this.lblQntWished_.Width = 0.3937008F;
+            // 
+            // lblConfirmed
+            // 
+            this.lblConfirmed.Border.BottomColor = System.Drawing.Color.Black;
+            this.lblConfirmed.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
+            this.lblConfirmed.Border.LeftColor = System.Drawing.Color.Black;
+            this.lblConfirmed.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
+            this.lblConfirmed.Border.RightColor = System.Drawing.Color.Black;
+            this.lblConfirmed.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
+            this.lblConfirmed.Border.TopColor = System.Drawing.Color.Black;
+            this.lblConfirmed.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
+            this.lblConfirmed.Height = 0.2362205F;
+            this.lblConfirmed.HyperLink = null;
+            this.lblConfirmed.Left = 6.889764F;
+            this.lblConfirmed.Name = "lblConfirmed";
+            this.lblConfirmed.Style = "ddo-char-set: 204; text-align: center; font-size: 6.75pt; ";
+            this.lblConfirmed.Text = "Факт. отгружено";
+            this.lblConfirmed.Top = 0.2362205F;
+            this.lblConfirmed.Width = 0.511811F;
+            // 
+            // textBox26
+            // 
+            this.textBox26.Border.BottomColor = System.Drawing.Color.Black;
+            this.textBox26.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
+            this.textBox26.Border.LeftColor = System.Drawing.Color.Black;
+            this.textBox26.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
+            this.textBox26.Border.RightColor = System.Drawing.Color.Black;
+            this.textBox26.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
+            this.textBox26.Border.TopColor = System.Drawing.Color.Black;
+            this.textBox26.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
+            this.textBox26.CanShrink = true;
+            this.textBox26.DataField = "=(PrintDecimals) ? \"ВЕСОВОЙ ТОВАР\" : \"\"";
+            this.textBox26.Height = 0.1968504F;
+            this.textBox26.Left = 0.03937008F;
+            this.textBox26.Name = "textBox26";
+            this.textBox26.Style = "ddo-char-set: 204; font-weight: bold; font-size: 11.25pt; text-decoration: underl" +
+    "ine; ";
+            this.textBox26.Text = "ВЕСОВОЙ ТОВАР?";
+            this.textBox26.Top = 0F;
+            this.textBox26.Width = 4.566929F;
+            // 
+            // label23
+            // 
+            this.label23.Border.BottomColor = System.Drawing.Color.Black;
+            this.label23.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
+            this.label23.Border.LeftColor = System.Drawing.Color.Black;
+            this.label23.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
+            this.label23.Border.RightColor = System.Drawing.Color.Black;
+            this.label23.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
+            this.label23.Border.TopColor = System.Drawing.Color.Black;
+            this.label23.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
+            this.label23.Height = 0.1181102F;
+            this.label23.HyperLink = null;
+            this.label23.Left = 0.9448819F;
+            this.label23.Name = "label23";
+            this.label23.Style = "ddo-char-set: 204; text-align: center; font-weight: normal; font-size: 6.75pt; ";
+            this.label23.Text = "Ост.";
+            this.label23.Top = 0.2362205F;
+            this.label23.Width = 0.2362205F;
+            // 
+            // label10
+            // 
+            this.label10.Border.BottomColor = System.Drawing.Color.Black;
+            this.label10.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
+            this.label10.Border.LeftColor = System.Drawing.Color.Black;
+            this.label10.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
+            this.label10.Border.RightColor = System.Drawing.Color.Black;
+            this.label10.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
+            this.label10.Border.TopColor = System.Drawing.Color.Black;
+            this.label10.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
+            this.label10.Height = 0.1181102F;
+            this.label10.HyperLink = null;
+            this.label10.Left = 1.181102F;
+            this.label10.Name = "label10";
+            this.label10.Style = "ddo-char-set: 204; text-align: left; font-size: 6.75pt; ";
+            this.label10.Text = "Артикул";
+            this.label10.Top = 0.2362205F;
+            this.label10.Width = 0.511811F;
+            // 
+            // label6
+            // 
+            this.label6.Border.BottomColor = System.Drawing.Color.Black;
+            this.label6.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
+            this.label6.Border.LeftColor = System.Drawing.Color.Black;
+            this.label6.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
+            this.label6.Border.RightColor = System.Drawing.Color.Black;
+            this.label6.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
+            this.label6.Border.TopColor = System.Drawing.Color.Black;
+            this.label6.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
+            this.label6.Height = 0.1181102F;
+            this.label6.HyperLink = null;
+            this.label6.Left = 4.88189F;
+            this.label6.Name = "label6";
+            this.label6.Style = "ddo-char-set: 204; text-align: right; font-size: 6.75pt; ";
+            this.label6.Text = "В кор.";
+            this.label6.Top = 0.2362205F;
+            this.label6.Width = 0.3937008F;
+            // 
+            // label4
+            // 
+            this.label4.Border.BottomColor = System.Drawing.Color.Black;
+            this.label4.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
+            this.label4.Border.LeftColor = System.Drawing.Color.Black;
+            this.label4.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
+            this.label4.Border.RightColor = System.Drawing.Color.Black;
+            this.label4.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
+            this.label4.Border.TopColor = System.Drawing.Color.Black;
+            this.label4.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
+            this.label4.Height = 0.1181102F;
+            this.label4.HyperLink = null;
+            this.label4.Left = 2.007874F;
+            this.label4.Name = "label4";
+            this.label4.Style = "ddo-char-set: 204; font-size: 6.75pt; ";
+            this.label4.Text = "Товар (срок годности)";
+            this.label4.Top = 0.2362205F;
+            this.label4.Width = 1.181102F;
+            // 
+            // label19
+            // 
+            this.label19.Border.BottomColor = System.Drawing.Color.Black;
+            this.label19.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
+            this.label19.Border.LeftColor = System.Drawing.Color.Black;
+            this.label19.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
+            this.label19.Border.RightColor = System.Drawing.Color.Black;
+            this.label19.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
+            this.label19.Border.TopColor = System.Drawing.Color.Black;
+            this.label19.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
+            this.label19.Height = 0.1262303F;
+            this.label19.HyperLink = null;
+            this.label19.Left = 0.03937008F;
+            this.label19.Name = "label19";
+            this.label19.Style = "ddo-char-set: 204; font-weight: normal; font-size: 6.75pt; ";
+            this.label19.Text = "Из ячейки";
+            this.label19.Top = 0.2362205F;
+            this.label19.Width = 0.5511811F;
+            // 
+            // line5
+            // 
+            this.line5.Border.BottomColor = System.Drawing.Color.Black;
+            this.line5.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
+            this.line5.Border.LeftColor = System.Drawing.Color.Black;
+            this.line5.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
+            this.line5.Border.RightColor = System.Drawing.Color.Black;
+            this.line5.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
+            this.line5.Border.TopColor = System.Drawing.Color.Black;
+            this.line5.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
+            this.line5.Height = 0F;
+            this.line5.Left = 0.03937008F;
+            this.line5.LineWeight = 1F;
+            this.line5.Name = "line5";
+            this.line5.Top = 0.2165354F;
+            this.line5.Width = 7.401575F;
+            this.line5.X1 = 0.03937008F;
+            this.line5.X2 = 7.440945F;
+            this.line5.Y1 = 0.2165354F;
+            this.line5.Y2 = 0.2165354F;
+            // 
+            // textBox6
+            // 
+            this.textBox6.Border.BottomColor = System.Drawing.Color.Black;
+            this.textBox6.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
+            this.textBox6.Border.LeftColor = System.Drawing.Color.Black;
+            this.textBox6.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
+            this.textBox6.Border.RightColor = System.Drawing.Color.Black;
+            this.textBox6.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
+            this.textBox6.Border.TopColor = System.Drawing.Color.Black;
+            this.textBox6.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
+            this.textBox6.CanShrink = true;
+            this.textBox6.DataField = "=(PrintDecimals) ? \"\" : \"Заказ\"";
+            this.textBox6.Height = 0.2362205F;
+            this.textBox6.Left = 5.708662F;
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Style = "ddo-char-set: 204; text-align: center; font-weight: normal; font-size: 6.75pt; te" +
+    "xt-decoration: none; ";
+            this.textBox6.Text = "Заказ кор.";
+            this.textBox6.Top = 0.2362205F;
+            this.textBox6.Width = 0.3937008F;
+            // 
+            // line2
+            // 
+            this.line2.Border.BottomColor = System.Drawing.Color.Black;
+            this.line2.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
+            this.line2.Border.LeftColor = System.Drawing.Color.Black;
+            this.line2.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
+            this.line2.Border.RightColor = System.Drawing.Color.Black;
+            this.line2.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
+            this.line2.Border.TopColor = System.Drawing.Color.Black;
+            this.line2.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None;
+            this.line2.Height = 0F;
+            this.line2.Left = 0.03937008F;
+            this.line2.LineWeight = 1F;
+            this.line2.Name = "line2";
+            this.line2.Top = 0.511811F;
+            this.line2.Width = 7.401575F;
+            this.line2.X1 = 0.03937008F;
+            this.line2.X2 = 7.440945F;
+            this.line2.Y1 = 0.511811F;
+            this.line2.Y2 = 0.511811F;
+            // 
+            // groupFooterWeighting
+            // 
+            this.groupFooterWeighting.Controls.AddRange(new DataDynamics.ActiveReports.ARControl[] {
+            this.label2,
+            this.label18,
+            this.txtBoxSum,
+            this.txtQntSum});
+            this.groupFooterWeighting.Height = 0.3854167F;
+            this.groupFooterWeighting.KeepTogether = true;
+            this.groupFooterWeighting.Name = "groupFooterWeighting";
+            // 
             // repOutputBillForConfirm
             // 
             this.PageSettings.DefaultPaperSize = false;
@@ -3051,20 +3051,6 @@ namespace WMSSuitable
             ((System.ComponentModel.ISupportInitialize)(this.label20)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.label21)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.label22)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.label2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.label18)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txtBoxSum)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txtQntSum)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.lblQntWished_)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.lblConfirmed)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textBox26)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.label23)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.label10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.label6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.label4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.label19)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.label8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textBox10)).EndInit();
@@ -3104,6 +3090,20 @@ namespace WMSSuitable
             ((System.ComponentModel.ISupportInitialize)(this.label52)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.label53)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.label54)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.label2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.label18)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtBoxSum)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtQntSum)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lblQntWished_)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lblConfirmed)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textBox26)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.label23)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.label10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.label6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.label4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.label19)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
 
 		}
